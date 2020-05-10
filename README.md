@@ -1,6 +1,5 @@
 # MatchmakingSwitch
-[EXPERIMENTAL] This is a tool can help you create no randoms session
-<br>
+[EXPERIMENTAL] This is a tool can help you create no randoms session<br>
 <br>
 [[STILL TESTING] Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/Release/MatchmakingSwitch.exe)<br>
 [[STILL TESTING] [LOUDER NOTIFICATION SOUND VERSION] Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/Release/MatchmakingSwitch_ffmpeg.exe)<br>
@@ -15,9 +14,9 @@ Usage is also included inside program manual.<br>
 <br>
 <br>
 Notice:<br>
--  This program may require run as administrator.<br>
--  Due to game default set matchmaking on, therefore this program will automatically turn matchmaking back on when starting it and closing it.<br>
--  This program will not work when using VPN or proxy.<br>
+This program may require run as administrator.<br>
+Due to game default set matchmaking on, therefore this program will automatically turn matchmaking back on when starting it and closing it.<br>
+This program will not work when using VPN or proxy.<br>
 <br>
 <br>
 Cautions:<br>
