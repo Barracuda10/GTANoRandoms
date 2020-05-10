@@ -4,9 +4,25 @@
 
 [[STILL TESTING] Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/Release/MatchmakingSwitch.exe)<br>
 
-[[STILL TESTING] [LOUDER SOUND VERSION] Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/Release/MatchmakingSwitch_ffmpeg.exe)<br>
+[[STILL TESTING] [LOUDER NOTIFICATION SOUND VERSION] Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/Release/MatchmakingSwitch_ffmpeg.exe)<br>
 
-Usage is included inside program manual.
+
+
+How to create a No Randoms Session:
+-  Join a public session with other players in it and with matchmaking on.
+-  Make a solo session and after that wait for few seconds turn matchmaking off.
+-  Turn matchmaking back on before leaving this session or host a job.
+
+Usage is also included inside program manual.
+
+
+
+Notice:
+-  This program may require run as administrator.
+-  Due to game default set matchmaking on, therefore this program will automatically turn matchmaking back on when starting it and closing it.
+-  This program will not work when using VPN or proxy.
+
+
 
 Cautions:
 
