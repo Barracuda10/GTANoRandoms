@@ -8,10 +8,12 @@
 
 Usage is included inside program manual.
 
-If you turn matchmaking back on it will immidiately have randoms join sometimes.
+Cautions:
+
+If turn matchmaking back on it will immidiately have randoms join sometimes.
 Therefore it's better to never turn it back on until leave this session.
 
-If there is already more than 1 people in session and after that turn off Matchmaking.
+If there is already more than 1 people in session and then turned off Matchmaking.
 It will still cause randoms join.
 So the best way to do is turn it off when only 1 person inside session.
 
