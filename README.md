@@ -6,7 +6,7 @@ This tool can turn off matchmaking service in game.<br>
 [[STILL TESTING] [LOUDER NOTIFICATION SOUND VERSION] Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/Release/MatchmakingSwitch_ffmpeg.exe)<br>
 <br>
 <br>
-### How to create a No Randoms Session:<br>
+### How to create a No Randoms Session<br>
 -  Join a public session with other players in it and with matchmaking on.<br>
 -  Make a solo session and after that wait for few seconds turn matchmaking off.<br>
 -  Turn matchmaking back on before leaving this session or host a job.<br>
@@ -14,13 +14,13 @@ This tool can turn off matchmaking service in game.<br>
 Usage is also included inside program manual.<br>
 <br>
 <br>
-### Notice:<br>
+### Notice <br>
 This program may require run as administrator.<br>
 Due to game default set matchmaking on, therefore this program will automatically turn matchmaking back on when starting it and closing it.<br>
 This program will not work when using VPN or proxy.<br>
 <br>
 <br>
-### Cautions:<br>
+### Cautions<br>
 Things unavailable when matchmaking is off, because game will require use matchmaking service:<br>
 -  Host any job<br>
 -  Find a new session<br>
