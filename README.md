@@ -1,6 +1,6 @@
 # MatchmakingSwitch
 [EXPERIMENTAL] This is a tool can help you create no randoms session<br>
-This tool can turn off matchmaking service in game.
+This tool can turn off matchmaking service in game.<br>
 <br>
 [[STILL TESTING] Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/Release/MatchmakingSwitch.exe)<br>
 [[STILL TESTING] [LOUDER NOTIFICATION SOUND VERSION] Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/Release/MatchmakingSwitch_ffmpeg.exe)<br>
@@ -10,6 +10,7 @@ How to create a No Randoms Session:<br>
 -  Join a public session with other players in it and with matchmaking on.<br>
 -  Make a solo session and after that wait for few seconds turn matchmaking off.<br>
 -  Turn matchmaking back on before leaving this session or host a job.<br>
+<br>
 Usage is also included inside program manual.<br>
 <br>
 <br>
