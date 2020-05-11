@@ -23,7 +23,7 @@ This program will not work when using VPN or proxy.<br>
 <br>
 <br>
 ### Cautions<br>
-Things unavailable when matchmaking is off, because game will require use matchmaking service:<br>
+Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
 -  Host any job<br>
 -  Find a new session<br>
 -  [NOT SURE] Join a friend session<br>
