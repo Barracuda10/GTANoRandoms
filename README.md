@@ -12,16 +12,19 @@ This tool can turn off matchmaking service in game.<br>
 -  Join a public session with other players in it and with matchmaking on.<br>
 -  Make a solo session and after that wait for few seconds turn matchmaking off.<br>
 -  Turn matchmaking back on before leaving this session or host a job.<br>
+<br>
 Usage is also included inside program manual.<br>
 <br>
 <br>
-#### Notice <br>
+
+### Notice <br>
 This program may require run as administrator.<br>
 Due to game default set matchmaking on, therefore this program will automatically turn matchmaking back on when starting it and closing it.<br>
 This program will not work when using VPN or proxy.<br>
 <br>
 <br>
-#### Cautions<br>
+
+### Cautions <br>
 Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
 -  Host any job<br>
 -  Find a new session<br>
