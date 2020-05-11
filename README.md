@@ -18,7 +18,7 @@ Usage is also included inside it's manual.<br>
 
 ### Notice <br>
 -  This program may require run as administrator.<br>
--  Due to game default set matchmaking on, therefore this program will automatically turn matchmaking back on while starting it and closing it.<br>
+-  Due to game default set matchmaking on, it will automatically turn matchmaking back on while starting it and closing it.<br>
 -  This program will not work when using VPN or proxy.<br>
 <br>
 
