@@ -29,6 +29,7 @@ Usage is also included inside it's manual.<br>
 -  [NOT SURE] Join a friend session<br>
 -  Make a solo session (It will kick you to story mode)<br>
 -  Join online (Probably only if join a public session will require)<br>
+<br>
 2 If turn matchmaking back on it will immidiately cause randoms join sometimes, and even if turn it back off quickly<br>
 Therefore it's better to never turn it back on until leave this session.<br>
 <br>
