@@ -20,7 +20,6 @@ Usage is also included inside it's manual.<br>
 -  This program may require run as administrator.<br>
 -  Due to game default set matchmaking on, it will automatically turn matchmaking back on while starting it and closing it.<br>
 -  This program will not work when using VPN or proxy.<br>
-<br>
 
 #### Cautions <br>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
