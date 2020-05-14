@@ -16,13 +16,13 @@ This tool can turn off matchmaking service in game.<br>
 Usage is also included inside it's manual.<br>
 <br>
 
-### Notice <br>
+#### Notice <br>
 -  This program may require run as administrator.<br>
 -  Due to game default set matchmaking on, it will automatically turn matchmaking back on while starting it and closing it.<br>
 -  This program will not work when using VPN or proxy.<br>
 <br>
 
-### Cautions <br>
+#### Cautions <br>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
 -  Host any job or heist that require launch session<br>
 -  [NOT SURE] Find a new session<br>
