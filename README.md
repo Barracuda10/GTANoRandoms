@@ -3,7 +3,7 @@
 This tool can turn off matchmaking service in game.<br>
 <br>
 [[STILL TESTING] Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/Release/MatchmakingSwitch.exe)<br>
-[[STILL TESTING] [LOUDER NOTIFICATION SOUND VERSION] Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/Release/MatchmakingSwitch_ffmpeg.exe)<br>
+[[STILL TESTING] [WITH LOUDER NOTIFICATION SOUND VERSION] Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/Release/MatchmakingSwitch_ffmpeg.exe)<br>
 <br>
 <br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch.png"><br>
@@ -23,16 +23,16 @@ Usage is also included inside it's manual.<br>
 <br>
 
 ### Cautions <br>
-1  Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
+1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
 -  Host any job or heist that require launch session<br>
 -  [NOT SURE] Find a new session<br>
 -  [NOT SURE] Join a friend session<br>
 -  Make a solo session (It will kick you to story mode)<br>
 -  Join online (Probably only if join a public session will require)<br>
 <br>
-2  If turn matchmaking back on it will immidiately cause randoms join sometimes, and even if turn it back off quickly<br>
+2&nbsp;&nbsp;If turn matchmaking back on it will immidiately cause randoms join sometimes, and even if turn it back off quickly<br>
 Therefore it's better to never turn it back on until leave this session.<br>
 <br>
-3  If there is already more than 1 people in session and then go turn Matchmaking off.<br>
+3&nbsp;&nbsp;If there is already more than 1 people in session and then go turn Matchmaking off.<br>
 It will still cause randoms to join.<br>
 So the best way to use is turn it off when only 1 person inside.<br>
