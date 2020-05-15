@@ -1,6 +1,7 @@
 # MatchmakingSwitch
 This is a tool can help you create no randoms session<br>
 This tool can turn off matchmaking service in game.<br>
+Just simply click red button in the middle or use hot key it will turn off in game matchmaking service.<br>
 <br>
 [Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/MatchmakingSwitch.exe)<br>
 [WITH LOUDER SOUND]
