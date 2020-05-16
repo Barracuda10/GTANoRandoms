@@ -28,9 +28,9 @@ Usage is also included inside it's manual.<br>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
 -  Host any job or heist that require launch session (Join others doesn't include)<br>
 -  Make a solo session (It will kick to story mode)<br>
--  [NOT SURE] Find a new session<br>
 -  [NOT SURE] Join a friend session<br>
 -  [NOT SURE] Join online<br>
+-  [PROVED AVAILABLE] <>span style=""text-decoration:line-through">Find a new session</span><br>
 <br>
 2&nbsp;&nbsp;If turn matchmaking back on it will immidiately cause randoms join sometimes, and even if turn it back off quickly<br>
 Therefore it's better to never turn it back on until leave this session.<br>
