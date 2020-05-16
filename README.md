@@ -30,7 +30,7 @@ Usage is also included inside it's manual.<br>
 -  Make a solo session (It will kick to story mode)<br>
 -  [NOT SURE] Join a friend session<br>
 -  [NOT SURE] Join online<br>
--  [PROVED AVAILABLE] <del>Find a new session</del><br>
+-  <del>[PROVED AVAILABLE] Find a new session</del><br>
 <br>
 2&nbsp;&nbsp;If turn matchmaking back on it will immidiately cause randoms join sometimes, and even if turn it back off quickly<br>
 Therefore it's better to never turn it back on until leave this session.<br>
