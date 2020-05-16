@@ -4,7 +4,7 @@ This tool can turn off matchmaking service in game.<br>
 Just simply click red button in the middle or use hot key it will turn off in game matchmaking service.<br>
 <br>
 [Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/MatchmakingSwitch.exe)<br>
-[WITH LOUDER SOUND]
+[WITH LOUDER SOUND VERSION]
 [Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/ffmpeg/MatchmakingSwitch.exe)<br>
 <br>
 <br>
@@ -29,8 +29,9 @@ Usage is also included inside it's manual.<br>
 -  Host any job or heist that require launch session (Join others doesn't include)<br>
 -  Make a solo session (It will kick to story mode)<br>
 -  [NOT SURE] Join a friend session<br>
--  [NOT SURE] Join online<br>
 -  <del>[PROVED AVAILABLE] Find a new session</del><br>
+-  <del>[PROVED AVAILABLE] Join online</del><br>
+
 <br>
 2&nbsp;&nbsp;If turn matchmaking back on it will immidiately cause randoms join sometimes, and even if turn it back off quickly<br>
 Therefore it's better to never turn it back on until leave this session.<br>
