@@ -28,7 +28,7 @@ Usage is also included inside it's manual.<br>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
 -  Host any job or heist that require launch session (Join others doesn't include)<br>
 -  Make a solo session (It will kick to story mode)<br>
--  <del>[PROVED AVAILABLE] Join a friend session through social club</del><br>
+-  <del>[PROVED AVAILABLE] Join friend through social club</del><br>
 -  <del>[PROVED AVAILABLE] Find a new session</del><br>
 -  <del>[PROVED AVAILABLE] Join online</del><br>
 
