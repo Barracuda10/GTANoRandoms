@@ -10,6 +10,8 @@ Just simply click red button in the middle or use hot key it will turn off in ga
 <br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch.png"><br>
 <br>
+if your scale and layout setting is not 100% it may look different...
+<br>
 ### How to create a No Randoms Session<br>
 -  Join a public session with other players in it and with matchmaking on.<br>
 -  Make a solo session and after that wait for few seconds turn matchmaking off.<br>
