@@ -209,16 +209,21 @@ BOOL CMatchmakingSwitchDlg::OnInitDialog()
 
 
 	pLog->Create(IDD_LOG_DIALOG, GetDesktopWindow());
-	WINDOWPLACEMENT wndpl, wndpl_parent;
-	GetWindowPlacement(&wndpl_parent);
-	pLog->GetWindowPlacement(&wndpl);
-	wndpl.rcNormalPosition.left = wndpl_parent.rcNormalPosition.left + 10;
-	wndpl.rcNormalPosition.top = wndpl_parent.rcNormalPosition.top + 30;
-	wndpl.rcNormalPosition.right = wndpl.rcNormalPosition.left + 414;
-	wndpl.rcNormalPosition.bottom = wndpl.rcNormalPosition.top + 262;
-	wndpl.showCmd = SW_HIDE;
+	pLog->ShowWindow(SW_HIDE);
+	//WINDOWPLACEMENT wndpl, wndpl_parent;
+	//GetWindowPlacement(&wndpl_parent);
+	//pLog->GetWindowPlacement(&wndpl);
+	//CRect dlgrect_parent;
+	//GetWindowRect(dlgrect_parent);//Parent Dialog Original Size 396*300
+	//CRect dlgrect;
+	//pLog->GetWindowRect(dlgrect);//Dialog Original Size 414*262
+	//wndpl.rcNormalPosition.left = wndpl_parent.rcNormalPosition.left - fabs((dlgrect_parent.Width() - dlgrect.Width()) / 2);
+	//wndpl.rcNormalPosition.top = wndpl_parent.rcNormalPosition.top + fabs((dlgrect_parent.Height() - dlgrect.Height()) / 2);
+	//wndpl.rcNormalPosition.right = wndpl.rcNormalPosition.left + dlgrect.Width();
+	//wndpl.rcNormalPosition.bottom = wndpl.rcNormalPosition.top + dlgrect.Height();
+	//wndpl.showCmd = SW_HIDE;
 
-	pLog->SetWindowPlacement(&wndpl);
+	//pLog->SetWindowPlacement(&wndpl);
 
 
 	turnoffSoundState = AfxGetApp()->GetProfileInt(_T("Settings"), _T("TurnoffSoundState"), MF_CHECKED);
@@ -276,9 +281,6 @@ HBRUSH CMatchmakingSwitchDlg::OnCtlColor(CDC* pDC, CWnd* pWnd, UINT nCtlColor)
 {
 	HBRUSH hbr = CDialogEx::OnCtlColor(pDC, pWnd, nCtlColor);
 
-	// TODO:  在此更改 DC 的任何特性
-
-	// TODO:  如果默认的不是所需画笔，则返回另一个画笔
 	if (pWnd->GetDlgCtrlID() == IDC_EDIT1) {
 		pDC->SetTextColor(RGB(206, 206, 206));
 		pDC->SetBkColor(RGB(49, 49, 49));
@@ -338,7 +340,7 @@ void CMatchmakingSwitchDlg::OnHotKey(UINT nHotKeyId, UINT nKey1, UINT nKey2)
 			GetLocalTime(&systime);
 			time.Format(_T("%02d:%02d:%02d "), systime.wHour, systime.wMinute, systime.wSecond);
 
-			pLog->m_LogContent += _T("\r\n") + time + _T("Matchmaking turned off");
+			pLog->m_LogContent += _T("\r\n") + time + _T("Matchmaking service no longer available");
 			pLog->UpdateData(false);
 			pLog->m_LogCtrl.LineScroll(pLog->m_LogCtrl.GetLineCount(), 0);
 			
@@ -447,7 +449,7 @@ void CMatchmakingSwitchDlg::OnBnClickedButton1()
 		GetLocalTime(&systime);
 		time.Format(_T("%02d:%02d:%02d "), systime.wHour, systime.wMinute, systime.wSecond);
 
-		pLog->m_LogContent += _T("\r\n") + time + _T("Matchmaking turned off");
+		pLog->m_LogContent += _T("\r\n") + time + _T("Matchmaking service no longer available");
 		pLog->UpdateData(false);
 		pLog->m_LogCtrl.LineScroll(pLog->m_LogCtrl.GetLineCount(), 0);
 
@@ -599,51 +601,51 @@ void CMatchmakingSwitchDlg::OnOptionsChangehotkey()
 
 void CMatchmakingSwitchDlg::OnOptionsLog()
 {
-	CWnd* pWnd = FindWindow(0, _T("Log"));
+	bool pWnd = pLog->IsWindowVisible();
 	if (!pWnd) {
-		pLog = new Log();
+		//pLog = new Log();
 		pLog->Create(IDD_LOG_DIALOG, GetDesktopWindow());
 		WINDOWPLACEMENT wndpl, wndpl_parent;
 		GetWindowPlacement(&wndpl_parent);
 		pLog->GetWindowPlacement(&wndpl);
-		wndpl.rcNormalPosition.left = wndpl_parent.rcNormalPosition.left - 9;
-		wndpl.rcNormalPosition.top = wndpl_parent.rcNormalPosition.top + 19;
-		wndpl.rcNormalPosition.right = wndpl.rcNormalPosition.left + 414;
-		wndpl.rcNormalPosition.bottom = wndpl.rcNormalPosition.top + 262;
+		CRect dlgrect_parent;
+		GetWindowRect(dlgrect_parent);//Parent Dialog Original Size 396*300
+		CRect dlgrect;
+		pLog->GetWindowRect(dlgrect);//Log Dialog Original Size 414*262
+		wndpl.rcNormalPosition.left = wndpl_parent.rcNormalPosition.left - fabs((dlgrect_parent.Width() - dlgrect.Width()) / 2);
+		wndpl.rcNormalPosition.top = wndpl_parent.rcNormalPosition.top + fabs((dlgrect_parent.Height() - dlgrect.Height()) / 2);
+		wndpl.rcNormalPosition.right = wndpl.rcNormalPosition.left + dlgrect.Width();
+		wndpl.rcNormalPosition.bottom = wndpl.rcNormalPosition.top + dlgrect.Height();
 
 		pLog->SetWindowPlacement(&wndpl);
 		pLog->ShowWindow(SW_SHOW);
 		pLog->SetFocus();
 	}
 	else {
-		WINDOWPLACEMENT wndpl, wndpl_parent;
-		GetWindowPlacement(&wndpl_parent);
-		pLog->GetWindowPlacement(&wndpl);
-		wndpl.rcNormalPosition.left = wndpl_parent.rcNormalPosition.left - 9;
-		wndpl.rcNormalPosition.top = wndpl_parent.rcNormalPosition.top + 19;
-		wndpl.rcNormalPosition.right = wndpl.rcNormalPosition.left + 414;
-		wndpl.rcNormalPosition.bottom = wndpl.rcNormalPosition.top + 262;
-
-		pLog->SetWindowPlacement(&wndpl);
-		pWnd->BringWindowToTop();
-		pWnd->ShowWindow(SW_NORMAL);
+		pLog->BringWindowToTop();
+		pLog->ShowWindow(SW_NORMAL);
 	}
 }
 
 
 void CMatchmakingSwitchDlg::OnHelpManual()
 {
-	CWnd* pWnd = FindWindow(0, _T("Manual"));
+	CWnd* pWnd = FindWindow(_T("MatchmakingSwitchManual"), _T("Manual"));
 	if (!pWnd) {
 		pManual = new Manual();
 		pManual->Create(IDD_MANUAL_DIALOG, GetDesktopWindow());
 		WINDOWPLACEMENT wndpl, wndpl_parent;
 		GetWindowPlacement(&wndpl_parent);
 		pManual->GetWindowPlacement(&wndpl);
-		wndpl.rcNormalPosition.left = wndpl_parent.rcNormalPosition.left - 9;
-		wndpl.rcNormalPosition.top = wndpl_parent.rcNormalPosition.top + 19;
-		wndpl.rcNormalPosition.right = wndpl.rcNormalPosition.left + 414;
-		wndpl.rcNormalPosition.bottom = wndpl.rcNormalPosition.top + 262;
+		CRect dlgrect_parent;
+		GetWindowRect(dlgrect_parent);//Parent Dialog Original Size 396*300
+		CRect dlgrect;
+		pManual->GetWindowRect(dlgrect);//Manual Dialog Original Size 414*262
+
+		wndpl.rcNormalPosition.left = wndpl_parent.rcNormalPosition.left - fabs((dlgrect_parent.Width() - dlgrect.Width()) / 2);
+		wndpl.rcNormalPosition.top = wndpl_parent.rcNormalPosition.top + fabs((dlgrect_parent.Height() - dlgrect.Height()) / 2);
+		wndpl.rcNormalPosition.right = wndpl.rcNormalPosition.left + dlgrect.Width();
+		wndpl.rcNormalPosition.bottom = wndpl.rcNormalPosition.top + dlgrect.Height();
 
 		pManual->SetWindowPlacement(&wndpl);
 		pManual->ShowWindow(SW_SHOW);
@@ -658,7 +660,7 @@ void CMatchmakingSwitchDlg::OnHelpManual()
 
 void CMatchmakingSwitchDlg::OnHelpEdithostsfile()
 {
-	CWnd* pWnd = FindWindow(0, _T("hosts - Notepad"));
+	CWnd* pWnd = FindWindow(_T("Notepad"), _T("hosts - Notepad"));
 	if (!pWnd) {
 		WinExec("cmd.exe /c start notepad.exe %WINDIR%\\System32\\drivers\\etc\\hosts", SW_HIDE);
 	}
@@ -691,27 +693,30 @@ void CMatchmakingSwitchDlg::PreInitDialog()
 {
 	WINDOWPLACEMENT wndpl;//Restore last window position
 	GetWindowPlacement(&wndpl);
-	wndpl.rcNormalPosition.left = AfxGetApp()->GetProfileInt(_T("Settings"), _T("WindowPosX"), 762);
-	wndpl.rcNormalPosition.top = AfxGetApp()->GetProfileInt(_T("Settings"), _T("WindowPosY"), 370);
+	RECT workarea;
+	SystemParametersInfo(SPI_GETWORKAREA, 0, &workarea, 0);
+	CRect dlgrect;
+	GetWindowRect(dlgrect);//Dialog Original Size 396*300
+
+	wndpl.rcNormalPosition.left = AfxGetApp()->GetProfileInt(_T("Settings"), _T("WindowPosX"), (workarea.right - dlgrect.Width()) / 2);
+	wndpl.rcNormalPosition.top = AfxGetApp()->GetProfileInt(_T("Settings"), _T("WindowPosY"), (workarea.bottom - dlgrect.Height()) / 2);
 	if (wndpl.rcNormalPosition.left < 0)
 		wndpl.rcNormalPosition.left = 0;
 	if (wndpl.rcNormalPosition.top < 0)
 		wndpl.rcNormalPosition.top = 0;
-	RECT workarea;
-	SystemParametersInfo(SPI_GETWORKAREA, 0, &workarea, 0);
-	wndpl.rcNormalPosition.left = min(workarea.right - 396, wndpl.rcNormalPosition.left + workarea.left);
-	wndpl.rcNormalPosition.top = min(workarea.bottom - 300, wndpl.rcNormalPosition.top + workarea.top);
-	wndpl.rcNormalPosition.right = 396 + wndpl.rcNormalPosition.left;
-	wndpl.rcNormalPosition.bottom = 300 + wndpl.rcNormalPosition.top;
+	wndpl.rcNormalPosition.left = min(workarea.right - dlgrect.Width(), wndpl.rcNormalPosition.left + workarea.left);
+	wndpl.rcNormalPosition.top = min(workarea.bottom - dlgrect.Height(), wndpl.rcNormalPosition.top + workarea.top);
+
+	wndpl.rcNormalPosition.right = dlgrect.Width() + wndpl.rcNormalPosition.left;
+	wndpl.rcNormalPosition.bottom = dlgrect.Height() +wndpl.rcNormalPosition.top;
 	SetWindowPlacement(&wndpl);
 
-
 	//Get Dialog Size
-	//CString str;
-	////str.Format(_T("%d"), wndpl.rcNormalPosition.right - wndpl.rcNormalPosition.left);
-	//MessageBox(str, NULL, MB_OK);
-	////str.Format(_T("%d"),wndpl.rcNormalPosition.bottom - wndpl.rcNormalPosition.top);
-	//MessageBox(str, NULL, MB_OK);
+	/*CString str;
+	str.Format(_T("%d"), wndpl.rcNormalPosition.right - wndpl.rcNormalPosition.left);
+	MessageBox(str, NULL, MB_OK);
+	str.Format(_T("%d"),wndpl.rcNormalPosition.bottom - wndpl.rcNormalPosition.top);
+	MessageBox(str, NULL, MB_OK);*/
 
 	CDialogEx::PreInitDialog();
 }

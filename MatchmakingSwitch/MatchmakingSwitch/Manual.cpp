@@ -15,7 +15,11 @@ Manual::Manual(CWnd* pParent /*=NULL*/)
 	: CDialogEx(IDD_MANUAL_DIALOG, pParent)
 	, m_help(_T(""))
 {
-
+	//Register Class
+	WNDCLASS wc;
+	::GetClassInfo(AfxGetInstanceHandle(), _T("#32770"), &wc);
+	wc.lpszClassName = _T("MatchmakingSwitchManual");
+	AfxRegisterClass(&wc);
 }
 
 Manual::~Manual()

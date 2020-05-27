@@ -15,7 +15,11 @@ Log::Log(CWnd* pParent /*=NULL*/)
 	: CDialogEx(IDD_LOG_DIALOG, pParent)
 	, m_LogContent(_T(""))
 {
-
+	//Register Class
+	WNDCLASS wc;
+	::GetClassInfo(AfxGetInstanceHandle(), _T("#32770"), &wc);
+	wc.lpszClassName = _T("MatchmakingSwitchLog");
+	AfxRegisterClass(&wc);
 }
 
 Log::~Log()
