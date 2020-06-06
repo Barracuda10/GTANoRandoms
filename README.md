@@ -19,7 +19,6 @@ Just simply click red button in the middle or use hot key it will turn off in ga
   <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li><br>
   <li>Turn matchmaking back on before leave this session or host a job.</li><br>
 </ul>
-<br>
 Usage is also included inside it's manual.<br>
 <br>
 <hr>
@@ -29,7 +28,6 @@ Usage is also included inside it's manual.<br>
   <li>Due to game default set matchmaking on, it will automatically turn matchmaking back on while starting it and closing it.</li><br>
   <li>This program will not work when using VPN or proxy.</li><br>
 </ul>
-<br>
 <details>
   <summary>Click to see how to run as administrator</summary>
   <br>
