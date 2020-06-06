@@ -25,6 +25,11 @@ Usage is also included inside it's manual.<br>
 -  Due to game default set matchmaking on, it will automatically turn matchmaking back on while starting it and closing it.<br>
 -  This program will not work when using VPN or proxy.<br>
 <br>
+<details>
+  <summary>See how to run as administrator</summary>
+  Check this option showed below<br>
+  <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch.png"><br>
+</details>
 
 #### Cautions <br>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
