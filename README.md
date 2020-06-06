@@ -15,7 +15,6 @@ Just simply click red button in the middle or use hot key it will turn off in ga
 -  Join a public session with other players in it and with matchmaking on.<br>
 -  Make a solo session and after that wait for few seconds turn matchmaking off.<br>
 -  Turn matchmaking back on before leave this session or host a job.<br>
-<br>
 Usage is also included inside it's manual.<br>
 <br>
 
@@ -34,6 +33,8 @@ Usage is also included inside it's manual.<br>
   &nbsp;&nbsp;-&nbsp;&nbsp;Hosts [PATH]%WINDIR%\system32\drivers\etc\hosts<br>
 </details>
 <br>
+<br>
+<strong></strong>
 #### Cautions <br>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
 -  Host any job or heist that require launch session (Join others doesn't include)<br>
