@@ -34,7 +34,8 @@ Usage is also included inside it's manual.<br>
 </details>
 <br>
 <br>
-<strong></strong>
+<hr>
+<h4>Cautions</h4>
 #### Cautions <br>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
 -  Host any job or heist that require launch session (Join others doesn't include)<br>
