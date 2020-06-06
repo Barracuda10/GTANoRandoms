@@ -26,9 +26,9 @@ Usage is also included inside it's manual.<br>
 -  This program will not work when using VPN or proxy.<br>
 <br>
 <details>
-  <summary>See how to run as administrator</summary>
+  <summary>Click this to see how to run as administrator</summary>
   Check this option showed below<br>
-  <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch.png"><br>
+  <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/administrator.png"><br>
 </details>
 
 #### Cautions <br>
