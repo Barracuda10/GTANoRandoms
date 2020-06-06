@@ -33,21 +33,20 @@ Usage is also included inside it's manual.<br>
   <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/administrator.png"><br>
 </details>
 <details>
-  <summary>Click to see file this tool will modified</summary>
-  &nbsp;&nbsp;-&nbsp;&nbsp;Hosts [PATH]%WINDIR%\system32\drivers\etc\hosts<br>
+  <summary>Click to see file this tool will be modified</summary>
+  &nbsp;&nbsp;-&nbsp;&nbsp;Hosts&nbsp;&nbsp[PATH]%WINDIR%\system32\drivers\etc\hosts<br>
 </details>
 <br>
 <h2>Cautions</h2>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
 <br>
 <ul>
-  <li>Host any job or heist that require launch session (Join others doesn't include)</li><br>
-  <li>Make a solo session (It will kick to story mode)</li><br>
-  <li><del>[PROVED AVAILABLE] Join friend through social club</del></li><br>
-  <li><del>[PROVED AVAILABLE] Find a new session</del></li><br>
-  <li><del>[PROVED AVAILABLE] Join online</del></li><br>
+  <li>Host any job or heist that require launch session (Join others doesn't include)</li>
+  <li>Make a solo session (It will kick to story mode)</li>
+  <li><del>[PROVED AVAILABLE] Join friend through social club</del></li>
+  <li><del>[PROVED AVAILABLE] Find a new session</del></li>
+  <li><del>[PROVED AVAILABLE] Join online</del></li>
 </ul>
-
 <br>
 2&nbsp;&nbsp;If turn matchmaking back on it will immidiately cause randoms join sometimes, and even if turn it back off quickly<br>
 Therefore it's better to never turn it back on until leave this session.<br>
