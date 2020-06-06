@@ -4,8 +4,7 @@ This tool can turn off in game matchmaking service.<br>
 Just simply click red button in the middle or use hot key it will turn off in game matchmaking service.<br>
 <br>
 [Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/MatchmakingSwitch.exe)<br>
-[WITH LOUDER SOUND VERSION]
-[Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/ffmpeg/MatchmakingSwitch.exe)<br>
+[[WITH LOUDER SOUND VERSION]Download here...](https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/ffmpeg/MatchmakingSwitch.exe)<br>
 <br>
 <br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch.png"><br>
@@ -24,7 +23,6 @@ Usage is also included inside it's manual.<br>
 -  This program may require run as administrator.<br>
 -  Due to game default set matchmaking on, it will automatically turn matchmaking back on while starting it and closing it.<br>
 -  This program will not work when using VPN or proxy.<br>
-<br>
 <details>
   <summary>Click this to see how to run as administrator</summary>
   <br>
@@ -35,7 +33,7 @@ Usage is also included inside it's manual.<br>
   <summary>Click this to see file this tool will modified</summary>
   &nbsp;&nbsp;-&nbsp;&nbsp;Hosts [PATH]%WINDIR%\system32\drivers\etc\hosts<br>
 </details>
-
+<br>
 #### Cautions <br>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
 -  Host any job or heist that require launch session (Join others doesn't include)<br>
