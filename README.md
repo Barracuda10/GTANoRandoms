@@ -27,14 +27,13 @@ Usage is also included inside it's manual.<br>
 <br>
 <details>
   <summary>Click this to see how to run as administrator</summary>
-  &nbsp;&nbsp;-&nbsp;&nbsp;Check this option showed below<br>
   <br>
+  &nbsp;&nbsp;-&nbsp;&nbsp;Check this option showed below<br>
   <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/administrator.png"><br>
 </details>
 <details>
   <summary>Click this to see file this tool will modified</summary>
-  &nbsp;&nbsp;-&nbsp;&nbsp;Hosts<br>
-  &nbsp;&nbsp;-&nbsp;&nbsp;[PATH] %WINDIR%\system32\drivers\etc\hosts<br>
+  &nbsp;&nbsp;-&nbsp;&nbsp;Hosts [PATH]%WINDIR%\system32\drivers\etc\hosts<br>
 </details>
 
 #### Cautions <br>
