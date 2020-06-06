@@ -27,7 +27,7 @@ Usage is also included inside it's manual.<br>
 <br>
 <details>
   <summary>Click this to see how to run as administrator</summary>
-  -  Check this option showed below<br>
+-  Check this option showed below<br>
   <br>
   <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/administrator.png"><br>
 </details>
