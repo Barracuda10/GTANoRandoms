@@ -12,19 +12,22 @@ Just simply click red button in the middle or use hot key it will turn off in ga
 <del>[FIXED] it may look different if the scale and layout setting on Windows 10 is not set to 100%</del>
 <br>
 <hr>
-<br>
 <h3>How to create a No Randoms Session</h3>
--  Join a public session with other players in it and with matchmaking on.<br>
--  Make a solo session and after that wait for few seconds turn matchmaking off.<br>
--  Turn matchmaking back on before leave this session or host a job.<br>
+<ul>
+  <li>Join a public session with other players in it and with matchmaking on.</li><br>
+  <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li><br>
+  <li>Turn matchmaking back on before leave this session or host a job.</li><br>
+</ul>
 <br>
 Usage is also included inside it's manual.<br>
 <br>
 <hr>
 <h4>Notice</h4>
--  This program may require run as administrator.<br>
--  Due to game default set matchmaking on, it will automatically turn matchmaking back on while starting it and closing it.<br>
--  This program will not work when using VPN or proxy.<br>
+<ul>
+  <li>This program may require run as administrator.</li><br>
+  <li>Due to game default set matchmaking on, it will automatically turn matchmaking back on while starting it and closing it.</li><br>
+  <li>This program will not work when using VPN or proxy.</li><br>
+</ul>
 <br>
 <details>
   <summary>Click this to see how to run as administrator</summary>
@@ -39,11 +42,13 @@ Usage is also included inside it's manual.<br>
 <br>
 <h4>Cautions</h4>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
--  Host any job or heist that require launch session (Join others doesn't include)<br>
--  Make a solo session (It will kick to story mode)<br>
--  <del>[PROVED AVAILABLE] Join friend through social club</del><br>
--  <del>[PROVED AVAILABLE] Find a new session</del><br>
--  <del>[PROVED AVAILABLE] Join online</del><br>
+<ul>
+  <li>Host any job or heist that require launch session (Join others doesn't include)</li><br>
+  <li>Make a solo session (It will kick to story mode)</li><br>
+  <li><del>[PROVED AVAILABLE] Join friend through social club</del></li><br>
+  <li><del>[PROVED AVAILABLE] Find a new session</del></li><br>
+  <li><del>[PROVED AVAILABLE] Join online</del></li><br>
+</ul>
 
 <br>
 2&nbsp;&nbsp;If turn matchmaking back on it will immidiately cause randoms join sometimes, and even if turn it back off quickly<br>
