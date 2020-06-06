@@ -14,17 +14,17 @@ Just simply click red button in the middle or use hot key it will turn off in ga
 <h2>How to create a No Randoms Session</h2>
 <br>
 <ul>
-  <li>Join a public session with other players in it and with matchmaking on.</li><br>
-  <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li><br>
-  <li>Turn matchmaking back on before leave this session or host a job.</li><br>
+  <li>Join a public session with other players in it and with matchmaking on.</li>
+  <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li>
+  <li>Turn matchmaking back on before leave this session or host a job.</li>
 </ul>
 Usage is also included inside it's manual.<br>
 <br>
 <h2>Notice</h2>
 <ul>
-  <li>This program may require run as administrator.</li><br>
-  <li>Due to game default set matchmaking on, it will automatically turn matchmaking back on while starting it and closing it.</li><br>
-  <li>This program will not work when using VPN or proxy.</li><br>
+  <li>This program may require run as administrator.</li>
+  <li>Due to game default set matchmaking on, it will automatically turn matchmaking back on while starting it and closing it.</li>
+  <li>This program will not work when using VPN or proxy.</li>
 </ul>
 <details>
   <summary>Click to see how to run as administrator</summary>
