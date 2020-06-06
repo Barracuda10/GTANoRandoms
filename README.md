@@ -20,7 +20,6 @@ Just simply click red button in the middle or use hot key it will turn off in ga
 </ul>
 Usage is also included inside it's manual.<br>
 <br>
-<hr>
 <h2>Notice</h2>
 <ul>
   <li>This program may require run as administrator.</li><br>
