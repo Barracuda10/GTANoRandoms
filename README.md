@@ -11,7 +11,7 @@ Just simply click red button in the middle or use hot key it will turn off in ga
 <br>
 <del>[FIXED] it may look different if the scale and layout setting on Windows 10 is not set to 100%</del>
 <br>
-<h2>How to create a No Randoms Session</h2>
+<h2>How to create a No Randoms Session:</h2>
 <br>
 <ul>
   <li>Join a public session with other players in it and with matchmaking on.</li>
@@ -20,7 +20,7 @@ Just simply click red button in the middle or use hot key it will turn off in ga
 </ul>
 Usage is also included inside it's manual.<br>
 <br>
-<h2>Notice</h2>
+<h3>Note:</h3>
 <ul>
   <li>This program may require run as administrator.</li>
   <li>Due to game default set matchmaking on, it will automatically turn matchmaking back on while starting it and closing it.</li>
@@ -37,7 +37,7 @@ Usage is also included inside it's manual.<br>
   &nbsp;&nbsp;-&nbsp;&nbsp;Hosts&nbsp;&nbsp[PATH]%WINDIR%\system32\drivers\etc\hosts<br>
 </details>
 <br>
-<h2>Cautions</h2>
+<h2>Cautions:</h2>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
 <br>
 <ul>
