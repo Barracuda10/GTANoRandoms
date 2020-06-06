@@ -13,6 +13,7 @@ Just simply click red button in the middle or use hot key it will turn off in ga
 <br>
 <hr>
 <h3>How to create a No Randoms Session</h3>
+<br>
 <ul>
   <li>Join a public session with other players in it and with matchmaking on.</li><br>
   <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li><br>
@@ -42,6 +43,7 @@ Usage is also included inside it's manual.<br>
 <br>
 <h4>Cautions</h4>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
+<br>
 <ul>
   <li>Host any job or heist that require launch session (Join others doesn't include)</li><br>
   <li>Make a solo session (It will kick to story mode)</li><br>
