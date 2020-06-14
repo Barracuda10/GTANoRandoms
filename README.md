@@ -13,10 +13,17 @@ Just simply click red button in the middle or use hot key (default disabled) it 
 <br>
 <h2>How to create a No Randoms Session:</h2>
 <br>
+<h4>Way 1 [Around 20% times randoms still will join]</h4>
 <ul>
   <li>Join a public session with other players in it and with matchmaking on.</li>
   <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li>
-  <li>Turn matchmaking back on before leave this session or host a job.</li>
+  <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
+</ul>
+<h4>Way 2 [Newly Discovered]</h4>
+<ul>
+  <li>Join a invite only session with matchmaking on.</li>
+  <li>Turn matchmaking off then find a new session and the new session should be a empty session</li>
+  <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
 </ul>
 Usage is also included inside it's manual.<br>
 <br>
