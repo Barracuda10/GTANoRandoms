@@ -11,7 +11,7 @@ Just simply click red button in the middle or use hot key (default disabled) it 
 <br>
 <del>[FIXED] it may look different if the scale and layout setting on Windows 10 is not set to 100%</del>
 <br>
-<h2><ins>How to create a No Randoms Session:</ins></h2>
+<h2>How to create a No Randoms Session:</h2>
 <br>
 <h4>Way 1 [Around 20% times randoms still will join]</h4>
 <ul>
@@ -46,7 +46,7 @@ Usage is also included inside it's manual.<br>
   &nbsp;&nbsp;-&nbsp;&nbsp;Hosts&nbsp;&nbsp[PATH]%WINDIR%\system32\drivers\etc\hosts<br>
 </details>
 <br>
-<h2><ins>Cautions:</ins></h2>
+<h2>Cautions:</h2>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
 <br>
 <ul>
