@@ -12,15 +12,13 @@ Just simply click red button in the middle or use hot key (default disabled) it 
 <del>[FIXED] it may look different if the scale and layout setting on Windows 10 is not set to 100%</del>
 <br>
 <h2>How to create a No Randoms Session:</h2>
-<br>
-<h4>Way 1 [Around 20% times randoms still will join]</h4>
+<h5>Way 1 [Around 20% times randoms still will join]</h5>
 <ul>
   <li>Join a public session with other players in it and with matchmaking on.</li>
   <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li>
   <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
 </ul>
-<br>
-<h4>Way 2 [Newly Discovered]</h4>
+<h5>Way 2 [Newly Discovered]</h5>
 <ul>
   <li>Join a invite only session with matchmaking on.</li>
   <li>Turn matchmaking off then find a new session and the new session should be a empty session</li>
