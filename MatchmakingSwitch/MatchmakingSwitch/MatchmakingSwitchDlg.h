@@ -69,4 +69,9 @@ public:
 	CBrush m_brush;
 	CFont m_font_button;
 	afx_msg HBRUSH OnCtlColor(CDC* pDC, CWnd* pWnd, UINT nCtlColor);
+	afx_msg BOOL OnSetCursor(CWnd* pWnd, UINT nHitTest, UINT message);
+	int buttonWidthDiff;
+	int buttonHeightDiff;
+	int messageWidthDiff;
+	afx_msg void OnSize(UINT nType, int cx, int cy);
 };

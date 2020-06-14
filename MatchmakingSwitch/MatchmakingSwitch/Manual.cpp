@@ -57,9 +57,14 @@ BOOL Manual::OnInitDialog()
 	UpdateData(true);
 	m_help = "This is a tool can help you create a public session and allow anyone to join but except randoms.\r\n";
 	m_help += "\r\nHow to create a No Randoms Session:\r\n";
+	m_help += "\r\n[WAY 1]\r\n";
 	m_help += "-  Join a public session with other players in it and with matchmaking on.\r\n";
 	m_help += "-  Make a solo session and after that wait for few seconds turn matchmaking off.\r\n";
-	m_help += "-  Turn matchmaking back on before leaving this session or host a job.\r\n";
+	m_help += "-  Turn matchmaking back on before host a job or heist that require launch session.\r\n";
+	m_help += "\r\n[WAY 2]\r\n";
+	m_help += "-  Join a invite only session with matchmaking on.\r\n";
+	m_help += "-  Turn matchmaking off then find a new session and the new session should be a empty session.\r\n";
+	m_help += "-  Turn matchmaking back on before host a job or heist that require launch session.\r\n";
 	m_help += "\r\nNotice:\r\n";
 	m_help += "-  This program may require run as administrator.\r\n";
 	m_help += "-  Due to game default set matchmaking on, it will automatically turn matchmaking back on when starting it and closing it.\r\n";

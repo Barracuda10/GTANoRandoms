@@ -20,6 +20,8 @@
 #include<mmsystem.h>
 #pragma comment(lib,"winmm.lib")
 
+//These headers use to set cursor
+#define ID_HAND MAKEINTRESOURCE(32649)
 
 
 
@@ -41,6 +43,9 @@ CMatchmakingSwitchDlg::CMatchmakingSwitchDlg(CWnd* pParent /*=NULL*/)
 	, path(_T(""))
 	, turnoffSoundState(0)
 	, turnonSoundState(0)
+	, buttonWidthDiff(0)
+	, buttonHeightDiff(0)
+	, messageWidthDiff(0)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 }
@@ -69,6 +74,8 @@ BEGIN_MESSAGE_MAP(CMatchmakingSwitchDlg, CDialogEx)
 	ON_COMMAND(ID_OPTIONS_TURNOFFSOUND, &CMatchmakingSwitchDlg::OnOptionsTurnoffsound)
 	ON_COMMAND(ID_OPTIONS_TURNONSOUND, &CMatchmakingSwitchDlg::OnOptionsTurnonsound)
 	ON_WM_CTLCOLOR()
+	ON_WM_SETCURSOR()
+	ON_WM_SIZE()
 END_MESSAGE_MAP()
 
 
@@ -130,6 +137,8 @@ BOOL CMatchmakingSwitchDlg::OnInitDialog()
 
 	CString fileContent;
 	fileContent.Format(_T("%S"), get_FileContent);
+	free(get_FileContent);
+	get_FileContent = NULL;
 
 	if (fileContent.Find(_T("127.0.0.1 mm-gta5-prod.ros.rockstargames.com")) == -1) {
 		file.SeekToEnd();
@@ -234,6 +243,18 @@ BOOL CMatchmakingSwitchDlg::OnInitDialog()
 	
 	m_brush.CreateSolidBrush(RGB(49, 49, 49));
 
+	CRect rcParent;//Get control size differences
+	GetClientRect(&rcParent); //560 400
+
+	WINDOWPLACEMENT wndpl;
+
+	m_Button.GetWindowPlacement(&wndpl);
+	buttonWidthDiff = rcParent.Width() - wndpl.rcNormalPosition.right;
+	buttonHeightDiff = rcParent.Height() - wndpl.rcNormalPosition.bottom;
+
+	m_ProcessCtrl.GetWindowPlacement(&wndpl);
+	messageWidthDiff = rcParent.Width() - wndpl.rcNormalPosition.right;
+
 
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
@@ -325,6 +346,8 @@ void CMatchmakingSwitchDlg::OnHotKey(UINT nHotKeyId, UINT nKey1, UINT nKey2)
 
 			CString fileContent;
 			fileContent.Format(_T("%S"), get_FileContent);
+			free(get_FileContent);
+			get_FileContent = NULL;
 			int position = fileContent.Find(_T("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com"));
 			file.Seek(position, CFile::begin);
 
@@ -370,6 +393,8 @@ void CMatchmakingSwitchDlg::OnHotKey(UINT nHotKeyId, UINT nKey1, UINT nKey2)
 
 			CString fileContent;
 			fileContent.Format(_T("%S"), get_FileContent);
+			free(get_FileContent);
+			get_FileContent = NULL;
 			int position = fileContent.Find(_T("127.0.0.1 mm-gta5-prod.ros.rockstargames.com"));
 			file.Seek(position, CFile::begin);
 
@@ -434,6 +459,8 @@ void CMatchmakingSwitchDlg::OnBnClickedButton1()
 
 		CString fileContent;
 		fileContent.Format(_T("%S"), get_FileContent);
+		free(get_FileContent);
+		get_FileContent = NULL;
 		int position = fileContent.Find(_T("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com"));
 		file.Seek(position, CFile::begin);
 
@@ -476,6 +503,8 @@ void CMatchmakingSwitchDlg::OnBnClickedButton1()
 
 		CString fileContent;
 		fileContent.Format(_T("%S"), get_FileContent);
+		free(get_FileContent);
+		get_FileContent = NULL;
 		int position = fileContent.Find(_T("127.0.0.1 mm-gta5-prod.ros.rockstargames.com"));
 		file.Seek(position, CFile::begin);
 
@@ -740,6 +769,8 @@ void CMatchmakingSwitchDlg::OnDestroy()
 
 	CString fileContent;
 	fileContent.Format(_T("%S"), get_FileContent);
+	free(get_FileContent);
+	get_FileContent = NULL;
 	int position = fileContent.Find(_T("127.0.0.1 mm-gta5-prod.ros.rockstargames.com"));
 	if (fileContent.Find(_T("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com")) == -1) {
 		file.Seek(position, CFile::begin);
@@ -795,6 +826,46 @@ void CMatchmakingSwitchDlg::OnBnSetfocusButton1()
 {
 	GetDlgItem(IDC_EDIT1)->SetFocus();
 }
+
+
+BOOL CMatchmakingSwitchDlg::OnSetCursor(CWnd* pWnd, UINT nHitTest, UINT message)
+{
+	//Set cursor on button to hand shape
+	if (pWnd == GetDlgItem(IDC_BUTTON1)) {
+		SetCursor(LoadCursor(NULL, IDC_HAND));
+		return true;
+	}
+	if (pWnd == GetDlgItem(IDC_EDIT1)) {
+		SetCursor(LoadCursor(NULL, IDC_ARROW));
+		return true;
+	}
+
+	return CDialogEx::OnSetCursor(pWnd, nHitTest, message);
+}
+
+
+void CMatchmakingSwitchDlg::OnSize(UINT nType, int cx, int cy)
+{
+	CDialogEx::OnSize(nType, cx, cy);
+
+	if (m_Button.m_hWnd != NULL) {
+		WINDOWPLACEMENT wndpl;
+		m_Button.GetWindowPlacement(&wndpl);
+
+		wndpl.rcNormalPosition.right = cx - buttonWidthDiff;
+		wndpl.rcNormalPosition.bottom = cy - buttonHeightDiff;
+
+		m_Button.SetWindowPlacement(&wndpl);
+	}
+	if (m_ProcessCtrl.m_hWnd != NULL) {
+		WINDOWPLACEMENT wndpl;
+		m_ProcessCtrl.GetWindowPlacement(&wndpl);
+
+		wndpl.rcNormalPosition.right = cx - messageWidthDiff;
+		m_ProcessCtrl.SetWindowPlacement(&wndpl);
+	}
+}
+
 
 
 void CMatchmakingSwitchDlg::OnOK()

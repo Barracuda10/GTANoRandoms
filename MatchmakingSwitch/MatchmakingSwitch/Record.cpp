@@ -40,6 +40,7 @@ BEGIN_MESSAGE_MAP(Record, CDialogEx)
 	ON_EN_SETFOCUS(IDC_EDIT1, &Record::OnSetfocusEdit1)
 	ON_WM_HELPINFO()
 	ON_EN_SETFOCUS(IDC_ALERT, &Record::OnEnSetfocusAlert)
+	ON_WM_SETCURSOR()
 END_MESSAGE_MAP()
 
 
@@ -154,4 +155,23 @@ void Record::OnEnSetfocusAlert()
 
 		GetDlgItem(IDC_EDIT1)->ShowWindow(SW_SHOW);
 	}
+}
+
+
+BOOL Record::OnSetCursor(CWnd* pWnd, UINT nHitTest, UINT message)
+{
+	if (pWnd == GetDlgItem(IDOK)) {
+		SetCursor(LoadCursor(NULL, IDC_HAND));
+		return true;
+	}
+	if (pWnd == GetDlgItem(IDC_EDIT1)) {
+		SetCursor(LoadCursor(NULL, IDC_HAND));
+		return true;
+	}
+	if (pWnd == GetDlgItem(IDC_ALERT)) {
+		SetCursor(LoadCursor(NULL, IDC_ARROW));
+		return true;
+	}
+
+	return CDialogEx::OnSetCursor(pWnd, nHitTest, message);
 }
