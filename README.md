@@ -1,5 +1,5 @@
 <h1>MatchmakingSwitch</h1>
-This is a tool can help you create no randoms session<br>
+[EXPERIMENTAL] This is a tool can help you create no randoms session<br>
 This tool can turn off in game matchmaking service.<br>
 Just simply click red button in the middle or use hot key (default disabled) it will turn off in game matchmaking service.<br>
 <br>
@@ -26,7 +26,6 @@ Just simply click red button in the middle or use hot key (default disabled) it 
   <li>Turn matchmaking off then find a new session and the new session should be a empty session</li>
   <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
 </ul>
-<br>
 Usage is also included inside it's manual.<br>
 <br>
 <h3>Note:</h3>
