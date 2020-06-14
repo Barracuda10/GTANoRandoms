@@ -11,7 +11,7 @@ Just simply click red button in the middle or use hot key (default disabled) it 
 <br>
 <del>[FIXED] it may look different if the scale and layout setting on Windows 10 is not set to 100%</del>
 <br>
-<h2>How to create a No Randoms Session:</h2>
+<h2><ins>How to create a No Randoms Session:</ins></h2>
 <br>
 <h4>Way 1 [Around 20% times randoms still will join]</h4>
 <ul>
@@ -19,12 +19,14 @@ Just simply click red button in the middle or use hot key (default disabled) it 
   <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li>
   <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
 </ul>
+<br>
 <h4>Way 2 [Newly Discovered]</h4>
 <ul>
   <li>Join a invite only session with matchmaking on.</li>
   <li>Turn matchmaking off then find a new session and the new session should be a empty session</li>
   <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
 </ul>
+<br>
 Usage is also included inside it's manual.<br>
 <br>
 <h3>Note:</h3>
@@ -44,7 +46,7 @@ Usage is also included inside it's manual.<br>
   &nbsp;&nbsp;-&nbsp;&nbsp;Hosts&nbsp;&nbsp[PATH]%WINDIR%\system32\drivers\etc\hosts<br>
 </details>
 <br>
-<h2>Cautions:</h2>
+<h2><ins>Cautions:</ins></h2>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
 <br>
 <ul>
