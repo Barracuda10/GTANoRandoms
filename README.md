@@ -21,7 +21,7 @@ Just simply click red button in the middle or use hot key (default disabled) it 
 <h5>Way 2 [Newly Discovered]</h5>
 <ul>
   <li>Join a invite only session with matchmaking on.</li>
-  <li>Turn matchmaking off then find a new session and the new session should be a empty session</li>
+  <li>Turn matchmaking off then find a new session and the new session should be a empty session.</li>
   <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
 </ul>
 Usage is also included inside it's manual.<br>
