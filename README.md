@@ -31,8 +31,15 @@ Usage is also included inside it's manual.<br>
   <li>This program may require run as administrator.</li>
   <li>Due to game default set matchmaking on, it will automatically turn matchmaking back on while starting it and closing it.</li>
   <li>This program will not work when using VPN or proxy.</li>
-  <li>If randoms still join while matchmaking on, please click Options->Edit Hosts File, it will pop up a text file, then check following codes in picture showed below look exactly same in that text file</li>
-  <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/hosts_enabled.png"><br>
+  <li>If randoms still join while matchmaking off, please click Options->Edit Hosts File, it will pop up a text file, then check following codes in picture showed below look exactly same in that text file
+  <br>
+    <details>
+      <summary>Click to see that picture</summary>
+      <br>
+      <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/hosts_enabled.png"><br>
+    </details>
+  <br>
+  </li>
 </ul>
 <details>
   <summary>Click to see how to run as administrator</summary>
