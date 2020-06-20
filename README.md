@@ -35,7 +35,6 @@ Usage is also included inside it's manual.<br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Check this option showed below<br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/administrator.png"><br>
     </details>
-  <br>
   </li>
   <li>Due to game default set matchmaking on, it will automatically turn matchmaking back on while starting it and closing it.</li>
   <li>This program will not work when using VPN or proxy.</li>
@@ -45,7 +44,6 @@ Usage is also included inside it's manual.<br>
       <br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/hosts_enabled.png"><br>
     </details>
-  <br>
   </li>
 </ul>
 <details>
