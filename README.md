@@ -12,7 +12,7 @@ Just simply click red button in the middle or use hot key (default disabled) it 
 <del>[FIXED] it may look different if the scale and layout setting on Windows 10 is not set to 100%</del>
 <br>
 <h2>How to create a No Randoms Session:</h2>
-<h5>Way 1 [Around 20% times randoms still will join]</h5>
+<h5>Way 1 [If turn matchmaking back on it will cause randoms join sometimes]</h5>
 <ul>
   <li>Join a public session with other players in it and with matchmaking on.</li>
   <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li>
