@@ -45,11 +45,13 @@ Usage is also included inside it's manual.<br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/hosts_enabled.png"><br>
     </details>
   </li>
+  <li>This program will not modified any other file except the one showed below. This program is based on network so it won't modified game play<br>
+    <details>
+      <summary>Click to see file this tool will be modified</summary>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Hosts&nbsp;&nbsp[PATH]%WINDIR%\system32\drivers\etc\hosts<br>
+    </details>
+  </li>
 </ul>
-<details>
-  <summary>Click to see file this tool will be modified</summary>
-  &nbsp;&nbsp;-&nbsp;&nbsp;Hosts&nbsp;&nbsp[PATH]%WINDIR%\system32\drivers\etc\hosts<br>
-</details>
 <br>
 <h2>Cautions:</h2>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
