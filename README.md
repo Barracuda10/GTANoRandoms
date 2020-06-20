@@ -28,11 +28,18 @@ Usage is also included inside it's manual.<br>
 <br>
 <h3>Note:</h3>
 <ul>
-  <li>This program may require run as administrator.</li>
+  <li>This program may require run as administrator.<br>
+    <details>
+      <summary>Click to see how to run as administrator</summary>
+      <br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Check this option showed below<br>
+      <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/administrator.png"><br>
+    </details>
+  <br>
+  </li>
   <li>Due to game default set matchmaking on, it will automatically turn matchmaking back on while starting it and closing it.</li>
   <li>This program will not work when using VPN or proxy.</li>
-  <li>If randoms still join while matchmaking off, please click Options->Edit Hosts File, it will pop up a text file, then check following codes in picture showed below look exactly same in that text file
-  <br>
+  <li>If randoms still join while matchmaking off, please click Options->Edit Hosts File, it will pop up a text file, then check following codes in picture showed below look exactly same in that text file<br>
     <details>
       <summary>Click to see that picture</summary>
       <br>
@@ -41,12 +48,6 @@ Usage is also included inside it's manual.<br>
   <br>
   </li>
 </ul>
-<details>
-  <summary>Click to see how to run as administrator</summary>
-  <br>
-  &nbsp;&nbsp;-&nbsp;&nbsp;Check this option showed below<br>
-  <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/administrator.png"><br>
-</details>
 <details>
   <summary>Click to see file this tool will be modified</summary>
   &nbsp;&nbsp;-&nbsp;&nbsp;Hosts&nbsp;&nbsp[PATH]%WINDIR%\system32\drivers\etc\hosts<br>
