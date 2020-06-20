@@ -32,7 +32,8 @@ Usage is also included inside it's manual.<br>
     <details>
       <summary>Click to see how to run as administrator</summary>
       <br>
-      &nbsp;&nbsp;-&nbsp;&nbsp;Check this option showed below<br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Right click MatchmakingSwitch.exe, then choose Properties, then choose Compatibility tab,<br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Check this option showed below.<br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/administrator.png"><br>
     </details>
   </li>
