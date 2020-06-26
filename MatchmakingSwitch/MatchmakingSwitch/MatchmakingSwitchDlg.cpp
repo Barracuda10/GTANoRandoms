@@ -27,8 +27,6 @@
 
 // CMatchmakingSwitchDlg dialog
 
-BEGIN_DHTML_EVENT_MAP(CMatchmakingSwitchDlg)
-END_DHTML_EVENT_MAP()
 
 
 CMatchmakingSwitchDlg::CMatchmakingSwitchDlg(CWnd* pParent /*=NULL*/)
@@ -130,26 +128,45 @@ BOOL CMatchmakingSwitchDlg::OnInitDialog()
 		return 1;
 	}
 	int fileLength = file.GetLength();
-	char* get_FileContent = new char[fileLength];
-	file.Read(get_FileContent, fileLength);
+	char* get_text = new char[fileLength];
+	memset(get_text, 0, sizeof(get_text));
+	file.Read(get_text, fileLength);
 
 	UpdateData(false);
 
-	CString fileContent;
-	fileContent.Format(_T("%S"), get_FileContent);
-	free(get_FileContent);
-	get_FileContent = NULL;
+	CStringA fileContent;
+	fileContent.Format("%s", get_text);
+	free(get_text);
+	get_text = NULL;
 
-	if (fileContent.Find(_T("127.0.0.1 mm-gta5-prod.ros.rockstargames.com")) == -1) {
+	if (fileContent.Find("127.0.0.1 mm-gta5-prod.ros.rockstargames.com") == -1) {
 		file.SeekToEnd();
 		file.Write("\r\n#127.0.0.1 mm-gta5-prod.ros.rockstargames.com\r", 48);
 		WinExec("ipconfig /flushdns", SW_HIDE);
 	}
 	else {
-		int position = fileContent.Find(_T("127.0.0.1 mm-gta5-prod.ros.rockstargames.com"));
-		if (fileContent.Find(_T("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com")) == -1) {
+		int position = fileContent.Find("127.0.0.1 mm-gta5-prod.ros.rockstargames.com");
+		if (fileContent.Find("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com") == -1) {
+			position = fileContent.Find("127.0.0.1 mm-gta5-prod.ros.rockstargames.com");
 			file.Seek(position, CFile::begin);
+
 			file.Write("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com\r", 46);
+			WinExec("ipconfig /flushdns", SW_HIDE);
+		}
+		if (fileContent.Find("##127.0.0.1 mm-gta5-prod.ros.rockstargames.com") != -1) {
+			int linestart = fileContent.Find("##127.0.0.1 mm-gta5-prod.ros.rockstargames.com");
+			fileContent.Delete(linestart + 1, fileContent.GetLength());
+			while (true) {
+				file.Seek(linestart, CFile::begin);
+				file.Write(" ", 1);
+				linestart--;
+				if (linestart < 0) {
+					break;
+				}
+				if (fileContent.Find("\n", linestart) != -1) {
+					break;
+				}
+			}
 			WinExec("ipconfig /flushdns", SW_HIDE);
 		}
 	}
@@ -336,19 +353,19 @@ void CMatchmakingSwitchDlg::OnHotKey(UINT nHotKeyId, UINT nKey1, UINT nKey2)
 		if (matchmaking) {
 			CFile file;
 			if (file.Open(path_t, CFile::modeReadWrite) == 0) {
-				MessageBox(_T("No Permission or File not Found, Please Run it as Administrator and Try Again"), NULL, MB_OK);
 				pLog->m_LogContent += _T("\r\n") + time + _T("No Permission or File not Found, Please Run it as Administrator and Try Again");
 				return;
 			}
 			int fileLength = file.GetLength();
-			char* get_FileContent = new char[fileLength];
-			file.Read(get_FileContent, fileLength);
+			char* get_text = new char[fileLength];
+			memset(get_text, 0, sizeof(get_text));
+			file.Read(get_text, fileLength);
 
-			CString fileContent;
-			fileContent.Format(_T("%S"), get_FileContent);
-			free(get_FileContent);
-			get_FileContent = NULL;
-			int position = fileContent.Find(_T("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com"));
+			CStringA fileContent;
+			fileContent.Format("%s", get_text);
+			free(get_text);
+			get_text = NULL;
+			int position = fileContent.Find("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com");
 			file.Seek(position, CFile::begin);
 
 			file.Write("127.0.0.1 mm-gta5-prod.ros.rockstargames.com\r", 45);
@@ -383,19 +400,19 @@ void CMatchmakingSwitchDlg::OnHotKey(UINT nHotKeyId, UINT nKey1, UINT nKey2)
 		else {
 			CFile file;
 			if (file.Open(path_t, CFile::modeReadWrite) == 0) {
-				MessageBox(_T("No Permission or File not Found, Please Run it as Administrator and Try Again"), NULL, MB_OK);
 				pLog->m_LogContent += _T("\r\n") + time + _T("No Permission or File not Found, Please Run it as Administrator and Try Again");
 				return;
 			}
 			int fileLength = file.GetLength();
-			char* get_FileContent = new char[fileLength];
-			file.Read(get_FileContent, fileLength);
+			char* get_text = new char[fileLength];
+			memset(get_text, 0, sizeof(get_text));
+			file.Read(get_text, fileLength);
 
-			CString fileContent;
-			fileContent.Format(_T("%S"), get_FileContent);
-			free(get_FileContent);
-			get_FileContent = NULL;
-			int position = fileContent.Find(_T("127.0.0.1 mm-gta5-prod.ros.rockstargames.com"));
+			CStringA fileContent;
+			fileContent.Format("%s", get_text);
+			free(get_text);
+			get_text = NULL;
+			int position = fileContent.Find("127.0.0.1 mm-gta5-prod.ros.rockstargames.com");
 			file.Seek(position, CFile::begin);
 
 			file.Write("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com\r", 46);
@@ -449,19 +466,19 @@ void CMatchmakingSwitchDlg::OnBnClickedButton1()
 	if (matchmaking) {
 		CFile file;
 		if (file.Open(path_t, CFile::modeReadWrite) == 0) {
-			MessageBox(_T("No Permission or File not Found, Please Run it as Administrator and Try Again"), NULL, MB_OK);
 			pLog->m_LogContent += _T("\r\n") + time + _T("No Permission or File not Found, Please Run it as Administrator and Try Again");
 			return;
 		}
 		int fileLength = file.GetLength();
-		char* get_FileContent = new char[fileLength];
-		file.Read(get_FileContent, fileLength);
+		char* get_text = new char[fileLength];
+		memset(get_text, 0, sizeof(get_text));
+		file.Read(get_text, fileLength);
 
-		CString fileContent;
-		fileContent.Format(_T("%S"), get_FileContent);
-		free(get_FileContent);
-		get_FileContent = NULL;
-		int position = fileContent.Find(_T("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com"));
+		CStringA fileContent;
+		fileContent.Format("%s", get_text);
+		free(get_text);
+		get_text = NULL;
+		int position = fileContent.Find("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com");
 		file.Seek(position, CFile::begin);
 
 		file.Write("127.0.0.1 mm-gta5-prod.ros.rockstargames.com\r", 45);
@@ -493,19 +510,19 @@ void CMatchmakingSwitchDlg::OnBnClickedButton1()
 	else {
 		CFile file;
 		if (file.Open(path_t, CFile::modeReadWrite) == 0) {
-			MessageBox(_T("No Permission or File not Found, Please Run it as Administrator and Try Again"), NULL, MB_OK);
 			pLog->m_LogContent += _T("\r\n") + time + _T("No Permission or File not Found, Please Run it as Administrator and Try Again");
 			return;
 		}
 		int fileLength = file.GetLength();
-		char* get_FileContent = new char[fileLength];
-		file.Read(get_FileContent, fileLength);
+		char* get_text = new char[fileLength];
+		memset(get_text, 0, sizeof(get_text));
+		file.Read(get_text, fileLength);
 
-		CString fileContent;
-		fileContent.Format(_T("%S"), get_FileContent);
-		free(get_FileContent);
-		get_FileContent = NULL;
-		int position = fileContent.Find(_T("127.0.0.1 mm-gta5-prod.ros.rockstargames.com"));
+		CStringA fileContent;
+		fileContent.Format("%s", get_text);
+		free(get_text);
+		get_text = NULL;
+		int position = fileContent.Find("127.0.0.1 mm-gta5-prod.ros.rockstargames.com");
 		file.Seek(position, CFile::begin);
 
 		file.Write("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com\r", 46);
@@ -720,6 +737,20 @@ void CMatchmakingSwitchDlg::OnClose()
 
 void CMatchmakingSwitchDlg::PreInitDialog()
 {
+	//Check file existence and permission
+	TCHAR systemDir[128];//GetSystemDirectory
+	GetSystemDirectory(systemDir, 128 * sizeof(TCHAR));
+	TCHAR *next_token = NULL;
+	TCHAR* path_t = _tcstok_s(systemDir, _T("\\"), &next_token);
+	_tcscat_s(path_t, 128, _T("\\Windows\\System32\\drivers\\etc\\hosts"));
+
+	CFile file;
+	if (file.Open(path_t, CFile::modeReadWrite) == 0) {
+		MessageBox(_T("No Permission or File not Found, Please Run this Program as Administrator and Try Again"), NULL, MB_OK);
+		exit(0);
+	}
+
+
 	WINDOWPLACEMENT wndpl;//Restore last window position
 	GetWindowPlacement(&wndpl);
 	RECT workarea;
@@ -764,15 +795,16 @@ void CMatchmakingSwitchDlg::OnDestroy()
 		return;
 	}
 	int fileLength = file.GetLength();
-	char* get_FileContent = new char[fileLength];
-	file.Read(get_FileContent, fileLength);
+	char* get_text = new char[fileLength];
+	memset(get_text, 0, sizeof(get_text));
+	file.Read(get_text, fileLength);
 
-	CString fileContent;
-	fileContent.Format(_T("%S"), get_FileContent);
-	free(get_FileContent);
-	get_FileContent = NULL;
-	int position = fileContent.Find(_T("127.0.0.1 mm-gta5-prod.ros.rockstargames.com"));
-	if (fileContent.Find(_T("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com")) == -1) {
+	CStringA fileContent;
+	fileContent.Format("%s", get_text);
+	free(get_text);
+	get_text = NULL;
+	int position = fileContent.Find("127.0.0.1 mm-gta5-prod.ros.rockstargames.com");
+	if (fileContent.Find("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com") == -1) {
 		file.Seek(position, CFile::begin);
 		file.Write("#127.0.0.1 mm-gta5-prod.ros.rockstargames.com\r", 46);
 		WinExec("ipconfig /flushdns", SW_HIDE);

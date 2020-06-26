@@ -33,7 +33,6 @@ protected:
 	afx_msg void OnPaint();
 	afx_msg HCURSOR OnQueryDragIcon();
 	DECLARE_MESSAGE_MAP()
-	DECLARE_DHTML_EVENT_MAP()
 private:
 	Log *pLog;
 	Manual *pManual;

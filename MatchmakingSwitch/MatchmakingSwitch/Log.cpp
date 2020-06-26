@@ -1,4 +1,4 @@
-// Log.cpp : 实现文件
+// Log.cpp : implementation file
 //
 
 #include "stdafx.h"
@@ -7,7 +7,7 @@
 #include "afxdialogex.h"
 
 
-// Log 对话框
+// Log dialog
 
 IMPLEMENT_DYNAMIC(Log, CDialogEx)
 
@@ -39,7 +39,7 @@ BEGIN_MESSAGE_MAP(Log, CDialogEx)
 END_MESSAGE_MAP()
 
 
-// Log 消息处理程序
+// Log message handlers
 
 
 BOOL Log::OnInitDialog()
@@ -56,7 +56,7 @@ BOOL Log::OnInitDialog()
 	m_LogCtrl.LineScroll(m_LogCtrl.GetLineCount(), 0);
 
 	return TRUE;  // return TRUE unless you set the focus to a control
-				  // 异常: OCX 属性页应返回 FALSE
+				  // EXCEPTION: OCX Property Pages should return FALSE
 }
 
 

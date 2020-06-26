@@ -1,4 +1,4 @@
-// Manual.cpp : 实现文件
+// Manual.cpp : implementation file
 //
 
 #include "stdafx.h"
@@ -7,7 +7,7 @@
 #include "afxdialogex.h"
 
 
-// Manual 对话框
+// Manual dialog
 
 IMPLEMENT_DYNAMIC(Manual, CDialogEx)
 
@@ -40,7 +40,7 @@ BEGIN_MESSAGE_MAP(Manual, CDialogEx)
 END_MESSAGE_MAP()
 
 
-// Manual 消息处理程序
+// Manual message handlers
 
 
 BOOL Manual::OnInitDialog()
@@ -67,7 +67,8 @@ BOOL Manual::OnInitDialog()
 	m_help += "-  Turn matchmaking back on before host a job or heist that require launch session.\r\n";
 	m_help += "\r\nNotice:\r\n";
 	m_help += "-  This program may require run as administrator.\r\n";
-	m_help += "-  Due to game default set matchmaking on, it will automatically turn matchmaking back on when starting it and closing it.\r\n";
+	m_help += "-  Due to game default set matchmaking on, this program will automatically turn matchmaking back on when starting it and closing it.\r\n";
+	m_help += "   To disable this function, uncheck \"Starting and closing reset\" in menu options.\r\n";
 	m_help += "-  This program will not work when using VPN or proxy.\r\n";
 
 	/*WINDOWPLACEMENT wndpl, wndpl_parent;
@@ -84,7 +85,7 @@ BOOL Manual::OnInitDialog()
 	UpdateData(false);
 
 	return TRUE;  // return TRUE unless you set the focus to a control
-				  // 异常: OCX 属性页应返回 FALSE
+				  // EXCEPTION: OCX Property Pages should return FALSE
 }
 
 

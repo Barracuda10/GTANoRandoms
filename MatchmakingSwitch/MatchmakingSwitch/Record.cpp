@@ -1,4 +1,4 @@
-// Record.cpp : 实现文件
+// Record.cpp : implementation file
 //
 
 #include "stdafx.h"
@@ -7,7 +7,7 @@
 #include "afxdialogex.h"
 
 
-// CRecord 对话框
+// CRecord dialog
 
 IMPLEMENT_DYNAMIC(Record, CDialogEx)
 
@@ -44,7 +44,7 @@ BEGIN_MESSAGE_MAP(Record, CDialogEx)
 END_MESSAGE_MAP()
 
 
-// CRecord 消息处理程序
+// CRecord message handlers
 
 
 void Record::OnBnClickedOk()
@@ -87,7 +87,7 @@ BOOL Record::OnInitDialog()
 	previous_hotkey = m_RecordLabel;
 
 	return TRUE;  // return TRUE unless you set the focus to a control
-				  // 异常: OCX 属性页应返回 FALSE
+				  // EXCEPTION: OCX Property Pages should return FALSE
 }
 
 
