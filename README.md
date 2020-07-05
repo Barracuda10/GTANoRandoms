@@ -18,7 +18,7 @@ Just simply click red button in the middle or use hot key (default disabled) it 
   <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li>
   <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
 </ul>
-<h5>Way 2 [Do not recommand. Friends may unable to join through social club (no join option)]</h5>
+<h5>Way 2 [Do Not Recommand. Friends may unable to join through Social Club (No join option)]</h5>
 <ul>
   <li>Join a invite only session with matchmaking on.</li>
   <li>Turn matchmaking off then find a new session and the new session should be a empty session.</li>
