@@ -82,7 +82,8 @@ This tool can also disable in game cloud services, make the game unable to conne
 It is useful if you don't want the game auto save game progress.<br>
 To disable cloud services, choose the option show below, it will change to cloudservicesswitch.<br>
 <br>
-Just like matchmakingswitch, click red button or use hotkey (default disabled) will disable Cloudservices, Turn off Cloudservices can make the game temporarily unable to save game data.<br>
+Just like matchmakingswitch, click red button or use hotkey (default disabled) will disable Cloudservices<br>
+Turn off Cloudservices can make the game temporarily unable to save game data.<br>
 To discard this unsaved game data disconnect network and let the game kick to story mode.<br>
 To upload and save this unsaved game data just turn it back on.<br>
 <br>
