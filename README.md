@@ -9,8 +9,8 @@ Just simply click red button in the middle or use hot key (default disabled) it 
 <br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch.png"><br>
 <br>
-<!--<del>[FIXED] it may look different if the scale and layout setting on Windows 10 is not set to 100%</del>-->
-<br>
+<!--<del>[FIXED] it may look different if the scale and layout setting on Windows 10 is not set to 100%</del>
+<br>-->
 <h2>How to create a No Randoms Session:</h2>
 <h5>Way 1 [If turn matchmaking back on, sometimes will cause randoms to join]</h5>
 <ul>
@@ -76,10 +76,11 @@ Usage is also included inside it's manual.<br>
 Therefore it's better to never turn it back on until leave this session.<br>
 <br>
 3&nbsp;&nbsp;If there is already more than 1 people in session and then go turn Matchmaking off, It usually will still cause randoms to join. So the best way to use this is turn it off while only 1 person in the session.<br>
+<br>
 <h2>Advanced features:</h2>
-This tool can also disable in game cloud services, make the game unable to connect game server, and unable to save game progress.
-This is useful when you don't want game auto save game progress.
-To disable cloud services, choose the option show below, it will change to cloudservicesswitch.
-Just like matchmakingswitch, click red button or use hotkey (default disabled) will disable cloud services.
-You can also change back to matchmakingswitch anytime, it will display each services state if it's disabled or enabled.
+This tool can also disable in game cloud services, make the game unable to connect game server, and unable to save game progress.<br>
+This is useful when you don't want game auto save game progress.<br>
+To disable cloud services, choose the option show below, it will change to cloudservicesswitch.<br>
+Just like matchmakingswitch, click red button or use hotkey (default disabled) will disable cloud services.<br>
+You can also change back to matchmakingswitch anytime, it will display each services state if it's disabled or enabled.<br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_cloudservicesswitch.png"><br>
