@@ -9,25 +9,25 @@ Just simply click red button in the middle or use hot key (default disabled) it 
 <br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch.png"><br>
 <br>
-<del>[FIXED] it may look different if the scale and layout setting on Windows 10 is not set to 100%</del>
+<!--<del>[FIXED] it may look different if the scale and layout setting on Windows 10 is not set to 100%</del>-->
 <br>
 <h2>How to create a No Randoms Session:</h2>
-<h5>Way 1 [If turn matchmaking back on it will cause randoms join sometimes]</h5>
+<h5>Way 1 [If turn matchmaking back on, sometimes will cause randoms to join]</h5>
 <ul>
   <li>Join a public session with other players in it and with matchmaking on.</li>
   <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li>
   <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
 </ul>
-<h5>Way 2 [Do Not Recommand. Friends may unable to join through Social Club (No join option)]</h5>
+<!--<h5>Way 2 [Do Not Recommand. Friends may unable to join through Social Club (No join option)]</h5>
 <ul>
   <li>Join a invite only session with matchmaking on.</li>
   <li>Turn matchmaking off then find a new session and the new session should be a empty session.</li>
   <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
-</ul>
+</ul>-->
 Usage is also included inside it's manual.<br>
 <details>
   <summary>See how to find manual</summary>
-  <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_manual.png"><br>
+  <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_manual.png">
 </details>
 <br>
 <h3>Note:</h3>
@@ -76,3 +76,10 @@ Usage is also included inside it's manual.<br>
 Therefore it's better to never turn it back on until leave this session.<br>
 <br>
 3&nbsp;&nbsp;If there is already more than 1 people in session and then go turn Matchmaking off, It usually will still cause randoms to join. So the best way to use this is turn it off while only 1 person in the session.<br>
+<h2>Advanced features:</h2>
+This tool can also disable in game cloud services, make the game unable to connect game server, and unable to save game progress.
+This is useful when you don't want game auto save game progress.
+To disable cloud services, choose the option show below, it will change to cloudservicesswitch.
+Just like matchmakingswitch, click red button or use hotkey (default disabled) will disable cloud services.
+You can also change back to matchmakingswitch anytime, it will display each services state if it's disabled or enabled.
+<img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_cloudservicesswitch.png"><br>
