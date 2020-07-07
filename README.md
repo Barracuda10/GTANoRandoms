@@ -79,8 +79,13 @@ Therefore it's better to never turn it back on until leave this session.<br>
 <br>
 <h2>Advanced features:</h2>
 This tool can also disable in game cloud services, make the game unable to connect game server, and unable to save game progress.<br>
-This is useful when you don't want game auto save game progress.<br>
+It is useful if you don't want the game auto save game progress.<br>
 To disable cloud services, choose the option show below, it will change to cloudservicesswitch.<br>
-Just like matchmakingswitch, click red button or use hotkey (default disabled) will disable cloud services.<br>
-You can also change back to matchmakingswitch anytime, it will display each services state if it's disabled or enabled.<br>
+Just like matchmakingswitch, click red button or use hotkey (default disabled) will disable Cloudservices, Turn off Cloudservices can make the game temporarily unable to save game data.<br>
+To discard this unsaved game data disconnect network and let the game kick to story mode.<br>
+To upload and save this unsaved game data just turn it back on.<br>
+Due to game default set cloudservices on, this program will automatically turn cloudservices back on when starting it and closing it.<br>
+<br>
+You can also change back to matchmakingswitch anytime, it will display each services state if it's On or Off.<br>
+<br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_cloudservicesswitch.png"><br>
