@@ -96,4 +96,4 @@ Due to game default set cloudservices on, this program will automatically turn c
 <br>
 <br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_cloudservicesswitch.png"><br>
-Change back to MatchmakingSwitch anytime in picture show above, it will display each services state if it's On or Off.<br>
+Change back to MatchmakingSwitch anytime through options in picture showed above, Also it will display each services state if it's On or Off in prompt labal.<br>
