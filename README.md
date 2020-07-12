@@ -18,6 +18,12 @@ Just simply click red button in the middle or use hot key (default disabled) it 
   <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li>
   <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
 </ul>
+h5>Method 2 [Recommand]</h5>
+<ul>
+  <li>Join a public session in story mode with matchmaking off.</li>
+  <li>It should be a empty session.</li>
+  <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
+</ul>
 <!--<h5>Method 2 [Do Not Recommand. Friends may unable to join through Social Club (No join option)]</h5>
 <ul>
   <li>Join a invite only session with matchmaking on.</li>
@@ -78,8 +84,7 @@ Therefore it's better to never turn it back on until leave this session.<br>
 3&nbsp;&nbsp;If there is already more than 1 people in session and then go turn Matchmaking off, It usually will still cause randoms to join. So the best way to use this is turn it off while only 1 person in the session.<br>
 <br>
 <h2>Advanced features:</h2>
-This tool can also disable in game cloud services, make the game unable to connect game server, and unable to save game progress.<br>
-It is useful if you don't want the game auto save progress.<br>
+This tool can also disable in game cloud services, make the game unable to connect game server, it will prevent game to upload and save game progress.<br>
 To disable Cloudservices, choose the option show below, it will change to CloudservicesSwitch.<br>
 <br>
 Just like MatchmakingSwitch, click red button or use hotkey (default disabled) will disable Cloudservices.<br>
@@ -91,4 +96,4 @@ Due to game default set cloudservices on, this program will automatically turn c
 <br>
 <br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_cloudservicesswitch.png"><br>
-You can also change back to matchmakingswitch anytime, it will display each services state if it's On or Off.<br>
+Change back to MatchmakingSwitch anytime in picture show above, it will display each services state if it's On or Off.<br>
