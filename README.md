@@ -18,7 +18,7 @@ Just simply click red button in the middle or use hot key (default disabled) it 
   <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li>
   <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
 </ul>
-h5>Method 2 [Recommand]</h5>
+<h5>Method 2 [Recommand]</h5>
 <ul>
   <li>Join a public session in story mode with matchmaking off.</li>
   <li>It should be a empty session.</li>
