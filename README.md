@@ -18,7 +18,7 @@ Just click red button in the middle or use hot key (default disabled) it will tu
   <li>It should be a empty session.</li>
   <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
 </ul>
-<del>[DO NOT RECOMMAND]<h5>Method 2 [If turn matchmaking back on, sometimes will cause randoms to join]</h5>
+<del><h5>Method 2 [DO NOT RECOMMAND] [If turn matchmaking back on, sometimes will cause randoms to join]</h5>
 <ul>
   <li>Join a public session with other players in it and with matchmaking on.</li>
   <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li>
