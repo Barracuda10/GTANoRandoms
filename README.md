@@ -12,7 +12,7 @@ Just click red button in the middle or use hot key (default disabled) it will tu
 <!--<del>[FIXED] it may look different if the scale and layout setting on Windows 10 is not set to 100%</del>
 <br>-->
 <h2>How to create a No Randoms Session:</h2>
-<h5>Method 1 [Recommand]</h5>
+<h5>Method 1 [RECOMMAND]</h5>
 <ul>
   <li>Join a public session in story mode with matchmaking off.</li>
   <li>It should be a empty session.</li>
