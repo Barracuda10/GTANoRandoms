@@ -16,18 +16,18 @@ Download this version if the notification sound is not loud enough:<br>
 <h2>How to create a No Randoms Session:</h2>
 <h5>Method 1 [RECOMMAND]</h5>
 <ul>
-  <li>Join a public session in story mode with matchmaking off.</li>
-  <li>It should be a empty session (Sometimes it will join a friend session, to avoid this set Presence Visibility to Me Only in Social Club setting, you can turn it back on later).</li>
+  <li>Join a public session in story mode or Find a new session with matchmaking off.</li>
+  <li>It should be a empty session (Sometimes it will join a friend, to avoid this set Presence Visibility to Me Only in Social Club setting, Remember to set it back later).</li>
   <li>Done. Randoms will not join this session.</li>
   <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
 </ul>
-<del><h5>Method 2 [DO NOT RECOMMAND] [If turn matchmaking back on, sometimes will cause randoms to join]</h5>
+<h5>Method 2</h5><!--[DO NOT RECOMMAND] [If turn matchmaking back on, sometimes will cause randoms to join]-->
 <ul>
   <li>Join a public session with other players in it and with matchmaking on.</li>
   <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li>
   <li>Done. Randoms will not join this session.</li>
   <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
-</ul></del>
+</ul>
 <!--<h5>Method 2 [Do Not Recommand. Friends may unable to join through Social Club (No join option)]</h5>
 <ul>
   <li>Join a invite only session with matchmaking on.</li>
