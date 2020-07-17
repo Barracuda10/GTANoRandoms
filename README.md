@@ -4,7 +4,9 @@ This tool can turn off in game matchmaking service.<br>
 Just click red button in the middle or use hot key (default disabled) it will turn off in game matchmaking service.<br>
 <br>
 <a href="https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/MatchmakingSwitch.exe"><ins>Download here...</ins></a><br>
-<a href="//raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/ffmpeg/MatchmakingSwitch.exe"><ins>Download louder notification sound version here...</ins></a><br>
+<br>
+Download this version if the notification sound is not loud enough:<br>
+<a href="//raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/ffmpeg/MatchmakingSwitch.exe"><ins>Download louder sound version here...</ins></a><br>
 <br>
 <br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch.png"><br>
