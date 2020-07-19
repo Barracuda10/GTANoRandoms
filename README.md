@@ -12,7 +12,7 @@ Download this version if the notification sound is not loud enough:<br>
 <br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch.png"><br>
 <br>
-<a href="https://www.virustotal.com/gui/file/3c5d6335c52a2333999e3b0c711977bf60850a8da0bfd1217358f98409f97d5a/detection"><ins>See virus scan result here</ins></a><br>
+<a href="https://www.virustotal.com/gui/file/3c5d6335c52a2333999e3b0c711977bf60850a8da0bfd1217358f98409f97d5a/detection" target="_blank"><ins>See virus scan result here</ins></a><br>
 <br>
 <!--<del>[FIXED] it may look different if the scale and layout setting on Windows 10 is not set to 100%</del>
 <br>-->
