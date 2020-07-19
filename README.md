@@ -1,5 +1,6 @@
 <h1>MatchmakingSwitch</h1>
 [EXPERIMENTAL] This is a tool can help you create no randoms session<br>
+No Randoms Session: Any friends and their friends and crew members are free to join but except randoms.<br>
 This tool can turn off in game matchmaking service.<br>
 Just click red button in the middle or use hot key (default disabled) it will turn off in game matchmaking service.<br>
 <br>
