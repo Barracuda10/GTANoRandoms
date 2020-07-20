@@ -3,7 +3,7 @@
 <br>
 <h4>What it can do & How it work</h4>
 This tool can turn off in game matchmaking service.<br>
-With this ability it can create a public session that random players won't start to join.<br>
+With this ability it can create a solo public session that random players won't start to join.<br>
 Friends and their friends and crew members are free to join but except randoms.<br>
 Just click red button in the middle or use hot key (default disabled) it will turn off in game matchmaking service.<br>
 <br>
