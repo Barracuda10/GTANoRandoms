@@ -59,7 +59,7 @@ Usage is also included inside it's manual.<br>
   </li>
   <li>Due to game default set matchmaking on, this program will automatically turn matchmaking back on while starting it and closing it.</li>
   <li>This program will not work when using VPN or proxy.</li>
-  <li>If randoms still join while matchmaking off, please click Options->Edit Hosts File, it will pop up a text file, <br>Then check following codes in picture showed below look exactly same in that text file.<br>
+  <li>If did correct steps but randoms still join while matchmaking off, please click Options->Edit Hosts File, it will pop up a text file, <br>Then check following codes in picture showed below look exactly same in that text file.<br>
     <details>
       <summary>Click to see that picture and more details</summary>
       <br>
