@@ -54,6 +54,7 @@ Usage is also included inside it's manual.<br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/administrator.png"><br>
     </details>
   </li>
+  <li>This program is based on network so it won't modified game play and game files.</li>
   <li>Due to game default set matchmaking on, this program will automatically turn matchmaking back on while starting it and closing it.</li>
   <li>This program will not work when using VPN or proxy.</li>
   <li>If did correct steps but randoms still join while matchmaking service is off, please click Options->Edit Hosts File, it will pop up a text file, <br>Then check codes in that text file look exactly same to the following codes in picture showed.<br>
@@ -66,7 +67,6 @@ Usage is also included inside it's manual.<br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/hosts_enabled.png"><br>
     </details>
   </li>
-  <li>This program is based on network so it won't modified game play and game files.</li>
   <li>This program do not modified any other file except the one showed below.<br>
     <details>
       <summary>Click to see file this tool will be modified</summary>
