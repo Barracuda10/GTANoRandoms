@@ -69,8 +69,8 @@ Usage is also included inside it's manual.<br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/hosts_enabled.png"><br>
     </details>
   </li>
-  <li>This program is based on network so it won't modified game play and game file.</li>
-  <li>This program will not modified any other file except the one showed below.<br>
+  <li>This program is based on network so it won't modified game play and game files.</li>
+  <li>This program do not modified any other file except the one showed below.<br>
     <details>
       <summary>Click to see file this tool will be modified</summary>
       &nbsp;&nbsp;-&nbsp;&nbsp;Hosts&nbsp;&nbsp[PATH]%WINDIR%\system32\drivers\etc\hosts<br>
