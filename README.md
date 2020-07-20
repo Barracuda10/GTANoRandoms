@@ -1,10 +1,10 @@
 <h1>MatchmakingSwitch</h1>
 [EXPERIMENTAL] This is a tool can help you create no randoms session<br>
 <br>
-<h5>What it can do & How it work</h5>
+<h4>What it can do & How it work</h4>
 This tool can turn off in game matchmaking service.<br>
-With this ability it can create a public session that random people won't start to join.<br>
-And friends and their friends and crew members are free to join this no randoms session but except randoms.<br>
+With this ability it can create a public session random people won't start to join.<br>
+Friends and their friends and crew members are free to join this no randoms session but except randoms.<br>
 Just click red button in the middle or use hot key (default disabled) it will turn off in game matchmaking service.<br>
 <br>
 <a href="https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/MatchmakingSwitch.exe"><ins>Download here...</ins></a><br>
