@@ -92,7 +92,7 @@ Usage is also included inside it's manual.<br>
 2&nbsp;&nbsp;If turn matchmaking back on it will immidiately cause randoms join sometimes, and even if turn it back off quickly<br>
 Therefore it's better to never turn it back on until leave this session.<br>
 <br>
-3&nbsp;&nbsp;If there is already more than 1 people in session and then go turn Matchmaking off, It usually will still cause randoms to join. So the best way to use this is turn it off while only 1 person in the session.<br>
+<!--3&nbsp;&nbsp;If there is already more than 1 people in session and then go turn Matchmaking off, It usually will still cause randoms to join. So the best way to use this is turn it off while only 1 person in the session.<br>-->
 <br>
 <h2>Advanced features:</h2>
 This tool can also disable in game cloud services, make the game unable to connect game server, it will prevent game to upload and save game progress.<br>
