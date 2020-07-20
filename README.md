@@ -19,7 +19,7 @@ Download this version if the notification sound is not loud enough:<br>
 <h5>Method 1 [RECOMMAND]</h5>
 <ul>
   <li>Join a public session in story mode or Find a new session with matchmaking off.</li>
-  <li>It should be a empty session (Sometimes it will join a friend, to avoid this set Presence Visibility to Me Only in Social Club setting, Remember to set it back later).</li>
+  <li>It should be a empty session (Usually it will join a friend, to avoid this set Presence Visibility to Me Only in Social Club setting, Remember to set it back later).</li>
   <li>Done. Randoms will not join this session.</li>
   <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
 </ul>
