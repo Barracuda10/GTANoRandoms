@@ -63,9 +63,9 @@ Usage is also included inside it's manual.<br>
     <details>
       <summary>Click to see that picture and more details</summary>
       <br>
-      Hint: Find and verify this code: "127.0.0.1 mm-gta5-prod.ros.rockstargames.com".<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Make sure there is no "#" in front of it, if there is, delete all the "#" sign in front of the line contain "127.0.0.1 mm-gta5-prod.ros.rockstargames.com".<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Or just simply delete entire line contain "127.0.0.1 mm-gta5-prod.ros.rockstargames.com", then restart this program. It will automatically add a new one when starting it<br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Find and verify this code: "127.0.0.1 mm-gta5-prod.ros.rockstargames.com".<br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Make sure there is no "#" in front of it, if there is, delete all the "#" sign in front of the line contain "127.0.0.1 mm-gta5-prod.ros.rockstargames.com".<br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Or just simply delete entire line contain "127.0.0.1 mm-gta5-prod.ros.rockstargames.com", then restart this program. It will automatically add a new one when starting it<br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/hosts_enabled.png"><br>
     </details>
   </li>
