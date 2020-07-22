@@ -47,10 +47,11 @@ Usage is also included inside it's manual.<br>
 <ul>
   <li>This program may require run as administrator.<br>
     <details>
-      <summary>Click to see how to run as administrator</summary>
+      <summary>See how to run as administrator</summary>
       <br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Right click MatchmakingSwitch.exe, choose Properties, then choose Compatibility tab,<br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Check this option showed below.<br>
+      <br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/administrator.png"><br>
     </details>
   </li>
@@ -58,18 +59,19 @@ Usage is also included inside it's manual.<br>
   <li>This program will not work when using VPN or proxy.</li>
   <li>If did correct steps but randoms still join while matchmaking service is off, please click Options->Edit Hosts File, it will pop up a text file, <br>Then check codes in that text file look exactly same to the following codes in picture showed.<br>
     <details>
-      <summary>Click to see that picture and more details</summary>
+      <summary>See that picture and how to fix it</summary>
       <br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Find and verify this code: "127.0.0.1 mm-gta5-prod.ros.rockstargames.com".<br>
       <!--&nbsp;&nbsp;-&nbsp;&nbsp;Make sure there is no "#" in front of it, if there is, delete all the "#" sign in the line contain "127.0.0.1 mm-gta5-prod.ros.rockstargames.com".<br>-->
       &nbsp;&nbsp;-&nbsp;&nbsp;<!--Or just simply-->Delete the entire line contain "127.0.0.1 mm-gta5-prod.ros.rockstargames.com", then restart this program. It will automatically add a new one when starting it<br>
+      <br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/hosts_enabled.png"><br>
     </details>
   </li>
   <li>This program is based on network so it won't modified game play and game files.</li>
   <li>This program do not modified any other file except the one showed below.<br>
     <details>
-      <summary>Click to see file this tool will be modified</summary>
+      <summary>Click to see file will be modified by this tool</summary>
       &nbsp;&nbsp;-&nbsp;&nbsp;Hosts&nbsp;&nbsp[PATH]%WINDIR%\system32\drivers\etc\hosts<br>
     </details>
   </li>
@@ -86,16 +88,16 @@ Usage is also included inside it's manual.<br>
   <li><del>[PROVED AVAILABLE] Join online</del></li>
 </ul>
 <br>
-2&nbsp;&nbsp;If turn matchmaking back on it will immidiately cause randoms join sometimes, and even if turn it back off quickly<br>
+2&nbsp;&nbsp;If turn matchmaking back on it will immidiately cause randoms to join sometimes, and even if turn it back off quickly<br>
 Therefore it's better to never turn it back on until leave this session.<br>
 <br>
-<!--3&nbsp;&nbsp;If there is already more than 1 people in session and then go turn Matchmaking off, It usually will still cause randoms to join. So the best way to use this is turn it off while only 1 person in the session.<br>-->
+<!--3&nbsp;&nbsp;If there is already more than 1 people in session and then go turn Matchmaking off, It usually still will cause randoms to join. So the best way to use this is turn it off while only 1 person in the session.<br>-->
 <br>
 <h2>Advanced features:</h2>
-This tool can also disable in game cloud services, make the game unable to connect game server, it will prevent game to upload and save game progress.<br>
+This tool can also disable in game cloud services, make the game unable to connect to game server, and it will prevent game to upload and save game progress.<br>
 To disable Cloudservices, choose the option show below, it will change to CloudservicesSwitch.<br>
 <br>
-Just like MatchmakingSwitch, click red button or use hotkey (default disabled) will disable Cloudservices.<br>
+Just like MatchmakingSwitch, click red button or use hotkey (default disabled) to disable Cloudservices.<br>
 Turn off Cloudservices can make the game temporarily unable to save game data.<br>
 To discard this unsaved game data disconnect internet and let the game kick to story mode.<br>
 To upload and save this unsaved game data just turn it back on.<br>
