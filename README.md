@@ -40,6 +40,7 @@ Just click red button in the middle or use hot key (default disabled) it will tu
 Usage is also included inside it's manual.<br>
 <details>
   <summary>See how to find manual</summary>
+  <br>
   <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_manual.png">
 </details>
 <br>
