@@ -95,11 +95,11 @@ Therefore it's better to never turn it back on until leave this session.<br>
 <!--3&nbsp;&nbsp;If there is already more than 1 people in session and then go turn Matchmaking off, It usually still will cause randoms to join. So the best way to use this is turn it off while only 1 person in the session.<br>-->
 <br>
 <h2>Advanced features:</h2>
-This tool can also disable in game cloud services, make the game unable to connect to game server, and it will prevent game to upload and save game progress.<br>
+This tool can also disable in game cloud services, make the game unable to connect to the game cloud servers, and it will prevent game to upload and save game progress.<br>
 To disable Cloudservices, choose the option show below, it will change to CloudservicesSwitch.<br>
 <br>
 Just like MatchmakingSwitch, click red button or use hotkey (default disabled) to disable Cloudservices.<br>
-Turn off Cloudservices can make the game temporarily unable to save game data.<br>
+Turn off Cloudservices can make the game temporarily unable to save game progress.<br>
 To discard this unsaved game data disconnect internet and let the game kick to story mode.<br>
 To upload and save this unsaved game data just turn it back on.<br>
 <br>
