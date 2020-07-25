@@ -43,7 +43,7 @@ Just click red button in the middle or use hot key (default disabled) it will tu
       <summary>See how to enable system firewall</summary>
       Open firewall setting in controll panel<br>
       Choose Turn Windows Defender Firewall on or off<br>
-      <br>
+      Turn both to on<br>
     </details>
   </li>
 </ul>
