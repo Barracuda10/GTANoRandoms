@@ -41,7 +41,7 @@ Just click red button in the middle or use hot key (default disabled) it will tu
   <li>This feature require system firewall enabled.
     <details>
       <summary>See how to enable system firewall</summary>
-      <a href="Firewall.cpl">Open firewall setting</a>
+      <a href="C:\Windows\System32\Firewall.cpl">Open firewall setting</a>
       <br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_manual.png">
     </details>
