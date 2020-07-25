@@ -41,8 +41,8 @@ Just click red button in the middle or use hot key (default disabled) it will tu
   <li>This feature require system firewall enabled.
     <details>
       <summary>See how to enable system firewall</summary>
-      Open firewall setting in controll panel
-      Choose Turn Windows Defender Firewall on or off
+      Open firewall setting in controll panel<br>
+      Choose Turn Windows Defender Firewall on or off<br>
       <br>
     </details>
   </li>
