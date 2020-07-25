@@ -34,7 +34,6 @@ Just click red button in the middle or use hot key (default disabled) it will tu
   <li>Turn matchmaking off then find a new session and the new session should be a empty session.</li>
   <li>Done. Randoms will not join this session.</li>
 </ul>-->
-<br>
 <h3>Firewall Solo Session:</h3>
 <ul>
   <li>Enable this option to block anyone from joining and disconnect anyone joined.</li>
