@@ -19,24 +19,30 @@ Just click red button in the middle or use hot key (default disabled) it will tu
 <!--<h5>Method 1 [RECOMMAND]</h5>-->
 <ul>
   <li>Join a public session in story mode or Find a new session with matchmaking off.</li>
-  <li>It should be a empty session (usually it will join a friend, to avoid this set Presence Visibility to Me Only in Social Club setting, Remember to set it back later).</li>
+  <li>It should be a empty session (usually it will join a friend, to avoid this enable Firewall based solo session, then repeat last step, Remember to set it back later).</li><!--(usually it will join a friend, to avoid this set Presence Visibility to Me Only in Social Club setting, Remember to set it back later)-->
   <li>Done. Randoms will not join this session.</li>
-  <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
+  <li>Turn matchmaking back on before hosting a job or heist that require to launch session..</li>
 </ul>
 <!--<h5>Method 2</h5>--><!--[DO NOT RECOMMAND] [If turn matchmaking back on, sometimes will cause randoms to join]-->
 <!--<ul>
   <li>Join a public session with other players in it and with matchmaking on.</li>
   <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li>
   <li>Done. Randoms will not join this session.</li>
-  <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
+  <li>Turn matchmaking back on before hosting a job or heist that require to launch session..</li>
 </ul>-->
 <!--<h5>Method 2 [Do Not Recommand. Friends may unable to join through Social Club (No join option)]</h5>
 <ul>
   <li>Join a invite only session with matchmaking on.</li>
   <li>Turn matchmaking off then find a new session and the new session should be a empty session.</li>
   <li>Done. Randoms will not join this session.</li>
-  <li>Turn matchmaking back on before host a job or heist that require launch session.</li>
+  <li>Turn matchmaking back on before hosting a job or heist that require to launch session..</li>
 </ul>-->
+<h3>Firewall based solo session:</h3>
+<ul>
+  <li>Enable this option to block or disconnect anyone from joining.</li>
+  <li>This feature require system firewall enabled.</li>
+</ul>
+
 Usage is also included inside it's manual.<br>
 <details>
   <summary>See how to find manual</summary>
