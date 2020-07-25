@@ -40,7 +40,7 @@ Just click red button in the middle or use hot key (default disabled) it will tu
   <li>This feature require system firewall enabled.
     <details>
       <summary>See this option and how to enable system firewall</summary>
-      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png">
+      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png" width=267 height=216><br>
       Open System and Security->Windows Defender Firewall in Control Panel<br>
       Choose Turn Windows Defender Firewall on or off<br>
       Turn both network settings to on<br>
