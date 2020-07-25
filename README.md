@@ -36,7 +36,7 @@ Just click red button in the middle or use hot key (default disabled) it will tu
 </ul>-->
 <h3>Firewall Solo Session:</h3>
 <ul>
-  <li>Enable this option to block anyone from joining and disconnect anyone joined. Friends can't join while this is enabled</li>
+  <li>Enable this option to block anyone from joining and disconnect anyone joined. Friends can't join while this is enabled.</li>
   <li>This feature require system firewall enabled.
     <details>
       <summary>See this option and how to enable system firewall</summary>
