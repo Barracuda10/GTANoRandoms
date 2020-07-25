@@ -40,6 +40,7 @@ Just click red button in the middle or use hot key (default disabled) it will tu
   <li>This feature require system firewall enabled.
     <details>
       <summary>See this option and how to enable system firewall</summary>
+      <br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png" width=267 height=216><br>
       Open System and Security->Windows Defender Firewall in Control Panel<br>
       Choose Turn Windows Defender Firewall on or off<br>
@@ -52,7 +53,7 @@ Usage is also included inside it's manual.<br>
 <details>
   <summary>See how to find manual</summary>
   <br>
-  <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_manual.png">
+  <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_manual.png" width=267 height=216>
 </details>
 <br>
 <h3>Note:</h3>
