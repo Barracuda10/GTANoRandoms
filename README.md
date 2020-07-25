@@ -42,9 +42,9 @@ Just click red button in the middle or use hot key (default disabled) it will tu
       <summary>See this option and how to enable system firewall</summary>
       <br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png" width=267 height=216><br>
-      Open System and Security->Windows Defender Firewall in Control Panel<br>
-      Choose Turn Windows Defender Firewall on or off<br>
-      Turn both network settings to on<br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Open System and Security->Windows Defender Firewall in Control Panel<br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Choose Turn Windows Defender Firewall on or off<br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Turn both network settings to on<br>
     </details>
   </li>
 </ul>
