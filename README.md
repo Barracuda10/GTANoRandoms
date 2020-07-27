@@ -49,6 +49,7 @@ Just click red button in the middle or use hot key (default disabled) it will tu
       &nbsp;&nbsp;-&nbsp;&nbsp;Turn both network settings to on<br>
     </details>
   </li>
+  <li>This is an assisting function for the tool</li>
 </ul>
 <br>
 Usage is also included inside it's manual.<br>
