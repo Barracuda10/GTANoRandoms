@@ -3,10 +3,10 @@
 <br>
 <h4>What it can do & How it work</h4>
 This tool can turn off in game matchmaking service.<br>
-With this ability it can create a solo public session that random players won't start to join.<br>
-Friends and their friends and crew members are free to join but except randoms.<br>
+This service populating random people into session.<br>
+Therefore it can create a solo public session that random players won't start to join,<br>
+While friends and their friends and crew members are free to join but except randoms.<br>
 Just click red button in the middle or use hot key (default disabled) it will turn off in game matchmaking service.<br>
-THIS IS NOT A FIREWALL, IT WILL NOT BLOCK YOUR FRIENDS, YOU DON'T NEED TO TURN OF THIS TOOL TO LET YOUR FRIENDS JOIN.<br>
 <br>
 <a href="https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/MatchmakingSwitch.exe"><ins>Download here...</ins></a><br>
 <a href="//raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/ffmpeg/MatchmakingSwitch.exe"><ins>Download this version if the notification sound is not loud enough...</ins></a><br>
