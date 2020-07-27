@@ -35,6 +35,7 @@ THIS IS NOT A FIREWALL, IT WILL NOT BLOCK YOUR FRIENDS, YOU DON'T NEED TO TURN O
   <li>Turn matchmaking off then find a new session and the new session should be a empty session.</li>
   <li>Done. Randoms will not join this session.</li>
 </ul>-->
+<br>
 <h3>Firewall Solo Session:</h3>
 <ul>
   <li>Enable this option to block anyone from joining and disconnect anyone joined. Friends can't join while this is enabled.</li>
