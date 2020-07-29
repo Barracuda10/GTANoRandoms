@@ -20,7 +20,7 @@ Just click red button in the middle or use hot key (default disabled) it will tu
 <!--<h5>Method 1 [RECOMMAND]</h5>-->
 <ul>
   <li>Join a Public Session or Find a new session with matchmaking off.</li>
-  <li>It should be a empty session (usually it will join a friend, to avoid this enable <a href="/README.md#firewall-solo-session">Firewall Solo Session</a>, then repeat last step, Remember to disable it later).</li><!--(usually it will join a friend, to avoid this set Presence Visibility to Me Only in Social Club setting, Remember to set it back later)-->
+  <li>It should be a empty session (usually it will join a friend, to avoid this enable <!--<a href="/README.md#firewall-solo-session">-->Firewall Solo Session<!--</a>-->, then repeat last step, Remember to disable it later).</li><!--(usually it will join a friend, to avoid this set Presence Visibility to Me Only in Social Club setting, Remember to set it back later)-->
   <li>Done. Randoms will not join this session.</li>
 </ul>
 <!--<h5>Method 2</h5>--><!--[DO NOT RECOMMAND] [If turn matchmaking back on, sometimes will cause randoms to join]-->
