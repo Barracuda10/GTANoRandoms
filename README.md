@@ -29,7 +29,7 @@ Just click red button in the middle or use hot key (default disabled) it will tu
   <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li>
   <li>Done. Randoms will not join this session.</li>
 </ul>-->
-<!--<h5>Method 2 [Do Not Recommand. Friends may unable to join through Social Club (No join option)]</h5>
+<!--<h5>Method 2</h5>
 <ul>
   <li>Join a invite only session with matchmaking on.</li>
   <li>Turn matchmaking off then find a new session and the new session should be a empty session.</li>
