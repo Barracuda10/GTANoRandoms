@@ -36,7 +36,7 @@ Just click red button in the middle or use hot key (default disabled) it will tu
   <li>Done. Randoms will not join this session.</li>
 </ul>-->
 <br>
-<h3>Assisting feature: Firewall Solo Session</h3>
+<h4>Assisting feature: Firewall Solo Session</h4>
 <ul>
   <li>Enable this option to block anyone from joining and disconnect anyone joined. Friends can't join while this is enabled.</li>
   <li>This feature require system firewall enabled.
@@ -94,7 +94,7 @@ Usage is also included inside it's manual.<br>
 </ul>
 <br>
 <!--<h3>Cautions:</h3>-->
-<h3>Things unavailable when matchmaking is off, because game will require to use matchmaking service:</h3>
+<h4>Things unavailable when matchmaking is off, because game will require to use matchmaking service:</h4>
 <ul>
   <li>Host any job or heist that require launch session (Join others doesn't include)</li>
   <li>Make a solo session (It will kick to story mode)</li>
