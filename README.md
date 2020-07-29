@@ -93,9 +93,8 @@ Usage is also included inside it's manual.<br>
   </li>
 </ul>
 <br>
-<h3>Cautions:</h3>
-1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
-<br>
+<!--<h3>Cautions:</h3>-->
+<h3>Things unavailable when matchmaking is off, because game will require to use matchmaking service:</h3>
 <ul>
   <li>Host any job or heist that require launch session (Join others doesn't include)</li>
   <li>Make a solo session (It will kick to story mode)</li>
