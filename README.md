@@ -60,7 +60,7 @@ Usage is also included inside it's manual.<br>
 <br>
 <h3>Note:</h3>
 <ul>
-  <li>Always keep matchmaking off while still in the session. Because turn it back on can sometimes cause randoms to join.<li>
+  <li>Always keep matchmaking off while still in the session. Because turn it back on can sometimes cause randoms to join.</li>
   <li>Turn matchmaking back on before hosting a job or heist that require to launch session.</li>
   <li>This program may require run as administrator.<br>
     <details>
@@ -85,8 +85,7 @@ Usage is also included inside it's manual.<br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/hosts_enabled.png"><br>
     </details>
   </li>
-  <li>This program is based on network so it won't modified game play and game files.</li>
-  <li>This program do not modified any other file except the one showed below.<br>
+  <li>This program is based on network so it won't modified game play and game files. It will not modified any other file except the one showed below.<br>
     <details>
       <summary>Click to see file will be modified by this tool</summary>
       &nbsp;&nbsp;-&nbsp;&nbsp;Hosts&nbsp;&nbsp[PATH]%WINDIR%\system32\drivers\etc\hosts<br>
