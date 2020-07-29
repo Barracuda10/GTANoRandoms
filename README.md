@@ -35,7 +35,6 @@ Just click red button in the middle or use hot key (default disabled) it will tu
   <li>Turn matchmaking off then find a new session and the new session should be a empty session.</li>
   <li>Done. Randoms will not join this session.</li>
 </ul>-->
-<br>
 <h4>Assisting feature: Firewall Solo Session</h4>
 <ul>
   <li>Enable this option to block anyone from joining and disconnect anyone joined. Friends can't join while this is enabled.</li>
@@ -92,7 +91,6 @@ Usage is also included inside it's manual.<br>
     </details>
   </li>
 </ul>
-<br>
 <!--<h3>Cautions:</h3>-->
 <h4>Things unavailable when matchmaking is off, because game will require to use matchmaking service:</h4>
 <ul>
