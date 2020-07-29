@@ -36,7 +36,7 @@ Just click red button in the middle or use hot key (default disabled) it will tu
   <li>Done. Randoms will not join this session.</li>
 </ul>-->
 <br>
-<h3>Firewall Solo Session:</h3>
+<h3>Assisting feature: Firewall Solo Session:</h3>
 <ul>
   <li>Enable this option to block anyone from joining and disconnect anyone joined. Friends can't join while this is enabled.</li>
   <li>This feature require system firewall enabled.
@@ -49,7 +49,6 @@ Just click red button in the middle or use hot key (default disabled) it will tu
       &nbsp;&nbsp;-&nbsp;&nbsp;Turn both network settings to on<br>
     </details>
   </li>
-  <li>This is an assisting function for the tool</li>
 </ul>
 <br>
 Usage is also included inside it's manual.<br>
@@ -61,7 +60,8 @@ Usage is also included inside it's manual.<br>
 <br>
 <h3>Note:</h3>
 <ul>
-  <li>Turn matchmaking back on before hosting a job or heist that require to launch session.<br>
+  <li>Always keep matchmaking off while still in the session. Because turn it back on can sometimes cause randoms to join.<li>
+  <li>Turn matchmaking back on before hosting a job or heist that require to launch session.</li>
   <li>This program may require run as administrator.<br>
     <details>
       <summary>See how to run as administrator</summary>
@@ -72,8 +72,8 @@ Usage is also included inside it's manual.<br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/administrator.png"><br>
     </details>
   </li>
-  <li>Due to game default set matchmaking on, this program will automatically turn matchmaking back on while starting it and closing it.</li>
   <li>This program will not work when using VPN or proxy.</li>
+  <li>Due to game default set matchmaking on, this program will automatically turn matchmaking back on while starting it and closing it.</li>
   <li>If did correct steps but randoms still join while matchmaking service is off, please click Options->Edit Hosts File, it will pop up a text file, <br>Then check codes in that text file look exactly same to the following codes in picture showed.<br>
     <details>
       <summary>See that picture and how to fix it</summary>
@@ -105,9 +105,9 @@ Usage is also included inside it's manual.<br>
   <li><del>[PROVED AVAILABLE] Join online</del></li>
 </ul>
 <br>
-2&nbsp;&nbsp;If turn matchmaking back on it will immidiately cause randoms to join sometimes, and even if turn it back off quickly<br>
+<!--2&nbsp;&nbsp;If turn matchmaking back on it will immidiately cause randoms to join sometimes, and even if turn it back off quickly<br>
 Therefore it's better to never turn it back on until leave this session.<br>
-<br>
+<br>-->
 <!--3&nbsp;&nbsp;If there is already more than 1 people in session and then go turn Matchmaking off, It usually still will cause randoms to join. So the best way to use this is turn it off while only 1 person in the session.<br>-->
 <br>
 <h2>Advanced features:</h2>
