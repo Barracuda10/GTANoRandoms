@@ -2,9 +2,8 @@
 [EXPERIMENTAL] This is a tool can help you create no randoms session<br>
 <br>
 <h4>What it can do & How it work</h4>
-This tool can turn off in game matchmaking service.<br>
-This service populating random people into session.<br>
-Therefore it can create a solo public session that random players won't start to join,<br>
+This tool can turn off in game matchmaking service that populating random people into the session.<br>
+So that it can create a Public Session that random players won't start to join<br>
 While friends and their friends and crew members are free to join but except randoms.<br>
 Just click red button in the middle or use hot key (default disabled) it will turn off in game matchmaking service.<br>
 <br>
