@@ -36,7 +36,7 @@ Just click red button in the middle or use hot key (default disabled) it will tu
   <li>Done. Randoms will not join this session.</li>
 </ul>-->
 <br>
-<h3>Assisting feature: Firewall Solo Session:</h3>
+<h3>Assisting feature: Firewall Solo Session</h3>
 <ul>
   <li>Enable this option to block anyone from joining and disconnect anyone joined. Friends can't join while this is enabled.</li>
   <li>This feature require system firewall enabled.
@@ -94,7 +94,7 @@ Usage is also included inside it's manual.<br>
   </li>
 </ul>
 <br>
-<h2>Cautions:</h2>
+<h3>Cautions:</h3>
 1&nbsp;&nbsp;Things unavailable when matchmaking is off, because game will require to use matchmaking service:<br>
 <br>
 <ul>
