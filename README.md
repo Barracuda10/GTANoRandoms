@@ -38,7 +38,7 @@ Just click red button in the middle or use hot key (default disabled) and it wil
       <br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png" width=267 height=216><br>
       <br>
-      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/matchmakingswitch_help_3.png" width=267 height=216><br>
+      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=267 height=216><br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Choose Open Firewall Settings in Help<br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw.png" width=267 height=216><br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Choose Turn Windows Defender Firewall on or off<br>
