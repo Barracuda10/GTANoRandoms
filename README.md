@@ -49,7 +49,6 @@ Just click red button in the middle or use hot key (default disabled) and it wil
     </details>
   </li>
 </ul>
-<br>
 Usage is also included inside it's manual.<br>
 <details>
   <summary>See how to find manual</summary>
