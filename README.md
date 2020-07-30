@@ -29,9 +29,9 @@ Just click red button in the middle or use hot key (default disabled) and it wil
   <li>Turn matchmaking off then find a new session and the new session should be a empty session.</li>
   <li>Done. Randoms will not join this session.</li>
 </ul>-->
-<h4>Assisting feature: Firewall Solo Session</h4>
+<h4>Assisting feature - Firewall Solo Session</h4>
 <ul>
-  <li>Enable this option to block anyone from joining and disconnect anyone joined. Friends can't join while this is enabled.</li>
+  <li>Enable this to block anyone from joining and disconnect anyone joined. Friends can't join while this is enabled.</li>
   <li>This feature require system firewall enabled.
     <details>
       <summary>See this option and how to enable system firewall</summary>
