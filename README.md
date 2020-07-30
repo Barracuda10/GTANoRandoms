@@ -34,10 +34,10 @@ Just click red button in the middle or use hot key (default disabled) and it wil
   <li>Enable this to block anyone from joining and disconnect anyone joined. Friends can't join while this is enabled.</li>
   <li>This feature require system firewall enabled.
     <details>
-      <summary>See this option and how to enable system firewall</summary>
-      <br>
+      <summary>See how to enable Firewall Solo Session and how to enable system firewall</summary>
+      How to enable Firewall Solo Session<br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png" width=267 height=216><br>
-      <br>
+      How to enable system firewall<br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=267 height=216><br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Choose Open Firewall Settings in Help<br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw.png" width=267 height=216><br>
