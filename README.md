@@ -2,11 +2,11 @@
 [EXPERIMENTAL] This is a tool can help you create no randoms session<br>
 <br>
 <h4>What it can do & How it work</h4>
-Usually sessions will join random people because they are connected to a game server that matching randoms into the session.<br>
+Usually sessions will join random people because they are connected to a game server that matching randoms into the session (Matchmaking server).<br>
 This tool can block the game server that matching randoms into the session.<br>
 So that it can create a Public Session that random players won't start to join, while friends and their friends and crew members are free to join but except randoms.<br>
 <br>
-Just click red button in the middle or use hot key (default disabled) and it will turn off in game matchmaking service.<br>
+Just click red button in the middle or use hot key (default disabled) and it will block that server.<br>
 <br>
 <a href="https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/MatchmakingSwitch.exe"><ins>Download here...</ins></a><br>
 <a href="//raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/ffmpeg/MatchmakingSwitch.exe"><ins>Download this version if the notification sound is not loud enough...</ins></a><br>
@@ -19,16 +19,10 @@ Just click red button in the middle or use hot key (default disabled) and it wil
 <h2>How to create a No Randoms Session:</h2>
 <!--<h5>Method 1 [RECOMMAND]</h5>-->
 <ul>
-  <li>Join a Public Session or Find a new session with matchmaking off.</li>
+  <li>Join a Public Session or Find a new session with MatchingSwitch ON.</li>
   <li>It should be a empty session (usually it will join a friend, to avoid this enable <!--<a href="/README.md#firewall-solo-session">-->Firewall Solo Session<!--</a>-->, then repeat last step, Remember to disable it later).</li><!--(usually it will join a friend, to avoid this set Presence Visibility to Me Only in Social Club setting, Remember to set it back later)-->
   <li>Done. Randoms will not join this session.</li>
 </ul>
-<!--<h5>Method 2</h5>--><!--[DO NOT RECOMMAND] [If turn matchmaking back on, sometimes will cause randoms to join]-->
-<!--<ul>
-  <li>Join a public session with other players in it and with matchmaking on.</li>
-  <li>Make a solo session and after that wait for few seconds turn matchmaking off.</li>
-  <li>Done. Randoms will not join this session.</li>
-</ul>-->
 <!--<h5>Method 2</h5>
 <ul>
   <li>Join a invite only session with matchmaking on.</li>
@@ -59,8 +53,8 @@ Usage is also included inside it's manual.<br>
 <br>
 <h3>Note:</h3>
 <ul>
-  <li>Always keep matchmaking off while still in the session. Because turn it back on can sometimes cause randoms to join.</li>
-  <li>Turn matchmaking back on before hosting a job or heist that require to launch session.</li>
+  <li>Always keep MatchingSwitch ON while still in the session. Because turn it back off sometimes can cause randoms to join.</li>
+  <li>Turn MatchingSwitch OFF before hosting a job or heist that require to launch session.</li>
   <li>This program may require run as administrator.<br>
     <details>
       <summary>See how to run as administrator</summary>
@@ -72,8 +66,8 @@ Usage is also included inside it's manual.<br>
     </details>
   </li>
   <li>This program will not work when using VPN or proxy.</li>
-  <li>Due to game default set matchmaking on, this program will automatically turn matchmaking back on while starting it and closing it.</li>
-  <li>If did correct steps but randoms still join while matchmaking service is off, please click Options->Edit Hosts File, it will pop up a text file, <br>Then check codes in that text file look exactly same to the following codes in picture showed.<br>
+  <li>Due to game default set matchmaking on, this program will automatically turn MatchingSwitch OFF while starting it and closing it.</li>
+  <li>If did correct steps but randoms still join while MatchingSwitch is ON, please click Options->Edit Hosts File, it will pop up a text file, <br>Then check codes in that text file look exactly same to the following codes in picture showed.<br>
     <details>
       <summary>See that picture and how to fix it</summary>
       <br>
@@ -92,7 +86,7 @@ Usage is also included inside it's manual.<br>
   </li>
 </ul>
 <!--<h3>Cautions:</h3>-->
-<h4>Things unavailable when matchmaking is off, because game will require to use matchmaking service:</h4>
+<h4>Things unavailable when MatchingSwitch is ON, because game will require to use matchmaking service:</h4>
 <ul>
   <li>Host any job or heist that require launch session (Join others doesn't include)</li>
   <li>Make a solo session (It will kick to story mode)</li>
@@ -110,7 +104,7 @@ Therefore it's better to never turn it back on until leave this session.<br>
 This tool can also disable in game cloud services, make the game unable to connect to the game cloud servers, and it will prevent game to upload and save game progress.<br>
 To disable Cloudservices, choose the option show below, it will change to CloudservicesSwitch.<br>
 <br>
-Just like MatchmakingSwitch, click red button or use hotkey (default disabled) to disable Cloudservices.<br>
+Just like MatchingSwitch, click red button or use hotkey (default disabled) to disable Cloudservices.<br>
 Turn off Cloudservices can make the game temporarily unable to save game progress.<br>
 To discard this unsaved game data disconnect internet and let the game kick to story mode.<br>
 To upload and save this unsaved game data just turn it back on.<br>
@@ -119,5 +113,5 @@ Due to game default set cloudservices on, this program will automatically turn c
 <br>
 <br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_cloudservicesswitch.png"><br>
-Change back to MatchmakingSwitch anytime through options in picture showed above.<br>
+Change back to MatchingSwitch anytime through options in picture showed above.<br>
 Also it will display each services state if it's On or Off in prompt labal.<br>
