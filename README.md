@@ -35,8 +35,10 @@ Just click red button in the middle or use hot key (default disabled) and it wil
   <li>This feature require system firewall enabled.
     <details>
       <summary>See how to enable Firewall Solo Session and how to enable system firewall</summary>
+      <br>
       How to enable Firewall Solo Session<br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png" width=267 height=216><br>
+      <br>
       How to enable system firewall<br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=267 height=216><br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Choose Open Firewall Settings in Help<br>
