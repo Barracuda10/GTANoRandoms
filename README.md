@@ -53,7 +53,7 @@ Usage is also included inside it's manual.<br>
 <br>
 <h3>Note:</h3>
 <ul>
-  <li>Always keep MatchingSwitch ON while still in the session. Because turn it back off sometimes can cause randoms to join.</li>
+  <li>Always keep MatchingSwitch ON while still in the session. Because turn it off sometimes can cause randoms to join.</li>
   <li>Turn MatchingSwitch OFF before hosting a job or heist that require to launch session.</li>
   <li>This program may require run as administrator.<br>
     <details>
