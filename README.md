@@ -37,9 +37,13 @@ Just click red button in the middle or use hot key (default disabled) and it wil
       <summary>See this option and how to enable system firewall</summary>
       <br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png" width=267 height=216><br>
-      &nbsp;&nbsp;-&nbsp;&nbsp;Open System and Security->Windows Defender Firewall in Control Panel<br>
+      <br>
+      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/matchmakingswitch_help_3.png" width=267 height=216><br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Choose Open Firewall Settings in Help<br>
+      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw.png" width=267 height=216><br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Choose Turn Windows Defender Firewall on or off<br>
-      &nbsp;&nbsp;-&nbsp;&nbsp;Turn both network settings to on<br>
+      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw_on.png" width=267 height=216><br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Turn both network settings to on (If know which network profile is using, only need to turn currently using one on)<br>
     </details>
   </li>
 </ul>
