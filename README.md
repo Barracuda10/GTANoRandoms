@@ -60,8 +60,8 @@ Usage is also included inside it's manual.<br>
 <ul>
   <li>Always keep MatchingSwitch ON while still in the session. Because turn it off sometimes can cause randoms to join.</li>
   <li>Turn MatchingSwitch OFF before hosting a job or heist that require to launch session.</li>
-  <li>This program require system firewall enabled, If can not enable system firewall, Use second mode instead</li>
-  <li>If using the second mode of MatchingSwitch, It may require run as administrator.<br>
+  <li>This program require system firewall enabled, If can not enable system firewall, Use Mode 2 instead.</li>
+  <li>If using Mode 2, It may require run as administrator.<br>
     <details>
       <summary>See how to run as administrator</summary>
       <br>
