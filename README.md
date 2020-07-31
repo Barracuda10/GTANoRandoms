@@ -105,7 +105,7 @@ Usage is also included inside it's manual.<br>
 Therefore it's better to never turn it back on until leave this session.<br>
 <br>-->
 <!--3&nbsp;&nbsp;If there is already more than 1 people in session and then go turn Matchmaking off, It usually still will cause randoms to join. So the best way to use this is turn it off while only 1 person in the session.<br>-->
-<br>
+<!--<br>
 <h2>Advanced features:</h2>
 This tool can also disable in game cloud services, make the game unable to connect to the game cloud servers, and it will prevent game to upload and save game progress.<br>
 To disable Cloudservices, choose the option show below, it will change to CloudservicesSwitch.<br>
@@ -120,4 +120,4 @@ Due to game default set cloudservices on, this program will automatically turn c
 <br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_cloudservicesswitch.png"><br>
 Change back to MatchingSwitch anytime through options in picture showed above.<br>
-Also it will display each services state if it's On or Off in prompt labal.<br>
+Also it will display each services state if it's On or Off in prompt labal.<br>-->
