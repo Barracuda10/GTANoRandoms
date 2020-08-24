@@ -41,7 +41,7 @@ Just click red button in the middle or use hot key (default disabled) and it wil
     </details>
   </li>
 </ul>
-This program need system firewall enabled.<br>
+This program default using Mode 1 and it need system firewall enabled.<br>
 <details>
       <summary>See how to enable system firewall</summary>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=267 height=216><br><br>
