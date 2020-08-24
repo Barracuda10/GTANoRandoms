@@ -33,7 +33,7 @@ Just click red button in the middle or use hot key (default disabled) and it wil
 </ul>-->
 <h4>Assisting feature - Firewall Solo Session</h4>
 <ul>
-  <li>Enable this to block anyone from joining and disconnect anyone joined. Friends can't join while this is enabled.</li>
+  <li>Enable this to block anyone from joining session and disconnect anyone joined. Friends can't join while this is enabled.</li>
   <li>This feature require system firewall enabled.
     <details>
       <summary>See how to enable Firewall Solo Session and how to enable system firewall</summary>
