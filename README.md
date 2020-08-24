@@ -62,6 +62,8 @@ Usage is also included inside it's manual.<br>
 <ul>
   <li>Always keep MatchingSwitch ON while still in the session. Because turn it off sometimes can cause randoms to join.</li>
   <li>Turn MatchingSwitch OFF before hosting a job or heist that require to launch session.</li>
+  <li>This program might not work when using VPN or proxy.</li>
+  <li>Due to game default set matchmaking on, this program will automatically turn MatchingSwitch OFF while starting it and closing it.</li>
   <li>If can not enable system firewall, Use Mode 2 instead. Mode 2 may require run as administrator.<br>
     <details>
       <summary>See how to run as administrator</summary>
@@ -72,9 +74,7 @@ Usage is also included inside it's manual.<br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/administrator.png"><br>
     </details>
   </li>
-  <li>This program might not work when using VPN or proxy.</li>
-  <li>Due to game default set matchmaking on, this program will automatically turn MatchingSwitch OFF while starting it and closing it.</li>
-  <li>If using Mode 2, did correct steps but randoms still join while MatchingSwitch is ON, please click Options->Edit Hosts File, it will pop up a text file, <br>Then check codes in that text file look exactly same to the following codes in picture showed.<br>
+  <li>If using Mode 2, did correct steps but randoms still join while MatchingSwitch is ON, <br>please click Options->Edit Hosts File, it will pop up a text file, Then check codes in that text file look exactly same to the following codes in picture showed.<br>
     <details>
       <summary>See that picture and how to fix it</summary>
       <br>
