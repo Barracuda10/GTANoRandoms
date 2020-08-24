@@ -41,7 +41,7 @@ Just click red button in the middle or use hot key (default disabled) and it wil
     </details>
   </li>
 </ul>
-This program default using Mode 1 and it need system firewall enabled.<br>
+This program need system firewall enabled.<br>
 <details>
       <summary>See how to enable system firewall</summary>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=267 height=216><br><br>
@@ -64,7 +64,7 @@ Usage is also included inside it's manual.<br>
   <li>Turn MatchingSwitch OFF before hosting a job or heist that require to launch session.</li>
   <li>This program might not work when using VPN or proxy.</li>
   <li>Due to game default set matchmaking on, this program will automatically turn MatchingSwitch OFF while starting it and closing it.</li>
-  <li>If can not enable system firewall, Use Mode 2 instead. Mode 2 may require run as administrator.<br>
+  <li>This program default using Mode 1 and it need system firewall enabled, <br>If can not enable system firewall, Use Mode 2 instead. Mode 2 may require run as administrator.<br>
     <details>
       <summary>See how to run as administrator</summary>
       <br>
