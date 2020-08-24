@@ -1,11 +1,11 @@
 <h1>MatchingSwitch</h1>
-[EXPERIMENTAL] This is a tool can help you create no randoms session<br>
+[EXPERIMENTAL] This is a tool can create no randoms session<br>
 <br>
 <details>
   <summary>What it can do and how it works</summary>
   <br>
   Usually a session will join random people because it's connected to a game server (matchmaking server) that matching randoms into the session.<br>
-  This tool can block the game server that matching randoms into the session.<br>
+  This tool can block that server that matching randoms into the session.<br>
   So it can create a Public Session that random players won't start to join, while friends and their friends and crew members are free to join but except randoms.<br>
 </details>
 Just click red button in the middle or use hot key (default disabled) and it will block that server.<br>
