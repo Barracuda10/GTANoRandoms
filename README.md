@@ -83,7 +83,7 @@ Usage is also included inside it's manual.<br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/hosts_enabled.png"><br><br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Find and verify this code: "127.0.0.1 mm-gta5-prod.ros.rockstargames.com".<br>
       <!--&nbsp;&nbsp;-&nbsp;&nbsp;Make sure there is no "#" in front of it, if there is, delete all the "#" sign in the line contain "127.0.0.1 mm-gta5-prod.ros.rockstargames.com".<br>-->
-      &nbsp;&nbsp;-&nbsp;&nbsp;<!--Or just simply-->Delete the entire line contain "127.0.0.1 mm-gta5-prod.ros.rockstargames.com", then restart this program. It will automatically add a new one when starting it<br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;<!--Or just simply-->Delete the entire line contain "127.0.0.1 mm-gta5-prod.ros.rockstargames.com" and save, then restart this program. It will automatically add a new one when starting it<br>
       <br>
     </details>
   </li>
