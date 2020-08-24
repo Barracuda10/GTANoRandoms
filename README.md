@@ -8,7 +8,7 @@
   This tool can block that server that matching randoms into the session.<br>
   So it can create a Public Session that random players won't start to join, while friends and their friends and crew members are free to join but except randoms.<br>
 </details>
-Just click red button in the middle or use hot key (default disabled) and it will block that server.<br>
+Just click red button in the middle or use hot key (default disabled) and it will block matchmaking server.<br>
 <br>
 <a href="https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/MatchingSwitch.exe"><ins>Download here...</ins></a><br>
 <a href="//raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/ffmpeg/MatchingSwitch.exe"><ins>Download this version if the notification sound is not loud enough...</ins></a><br>
