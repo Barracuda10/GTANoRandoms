@@ -18,7 +18,7 @@ Just click red button in the middle or use hot key (default disabled) and it wil
 <!--<a href="https://www.virustotal.com/gui/file/3c5d6335c52a2333999e3b0c711977bf60850a8da0bfd1217358f98409f97d5a/detection" target="_blank"><ins>See virus scan result</ins></a><br>-->
 <!--<del>[FIXED] it may look different if the scale and layout setting on Windows 10 is not set to 100%</del>
 <br>-->
-<h2>How to create a No Randoms Session:</h2>
+<h2>STEPS: Create a No Randoms Session</h2>
 <!--<h5>Method 1 [RECOMMAND]</h5>-->
 <ul>
   <li>Join a Public Session or Find a new session with MatchingSwitch ON.</li>
