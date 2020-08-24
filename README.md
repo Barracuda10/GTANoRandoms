@@ -36,21 +36,21 @@ Just click red button in the middle or use hot key (default disabled) and it wil
   <li>Enable this to block anyone from joining session and disconnect anyone joined. Friends can't join while this is enabled.</li>
   <li>This feature require system firewall enabled.
     <details>
-      <summary>See how to enable Firewall Solo Session and how to enable system firewall</summary>
-      <br>
-      How to enable Firewall Solo Session<br>
+      <summary>See how to enable Firewall Solo Session</summary>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png" width=267 height=216><br>
-      <br>
-      How to enable system firewall<br>
-      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=267 height=216><br>
-      &nbsp;&nbsp;-&nbsp;&nbsp;Choose Open Firewall Settings in Help<br>
-      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw.png" width=267 height=216><br>
-      &nbsp;&nbsp;-&nbsp;&nbsp;Choose Turn Windows Defender Firewall on or off<br>
-      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw_on.png" width=267 height=216><br>
-      &nbsp;&nbsp;-&nbsp;&nbsp;Turn both network settings to on (If know which network profile is using, only need to turn currently using one on)<br>
     </details>
   </li>
 </ul>
+This program need system firewall enabled.<br>
+<details>
+      <summary>See how to enable system firewall</summary>
+      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=267 height=216><br><br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Choose Open Firewall Settings in Help<br>
+      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw.png" width=267 height=216><br><br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Choose Turn Windows Defender Firewall on or off<br>
+      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw_on.png" width=267 height=216><br><br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Turn both network settings to on (If know which network profile is using, only need to turn currently using one on)<br>
+</details>
 Usage is also included inside it's manual.<br>
 <details>
   <summary>See how to find manual</summary>
@@ -62,8 +62,7 @@ Usage is also included inside it's manual.<br>
 <ul>
   <li>Always keep MatchingSwitch ON while still in the session. Because turn it off sometimes can cause randoms to join.</li>
   <li>Turn MatchingSwitch OFF before hosting a job or heist that require to launch session.</li>
-  <li>This program require system firewall enabled, If can not enable system firewall, Use Mode 2 instead.</li>
-  <li>If using Mode 2, It may require run as administrator.<br>
+  <li>If can not enable system firewall, Use Mode 2 instead. If using Mode 2, It may require run as administrator.<br>
     <details>
       <summary>See how to run as administrator</summary>
       <br>
