@@ -74,15 +74,17 @@ Usage is also included inside it's manual.<br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/administrator.png"><br>
     </details>
   </li>
-  <li>If using Mode 2, did correct steps but randoms still join while MatchingSwitch is ON, please do this:<br>click Options->Edit Hosts File, it will pop up a text file, Then check codes in that text file look exactly same to the following codes in picture showed.<br>
+  <li>If using Mode 2, did correct steps but randoms still join while MatchingSwitch is ON, please do this:<br>
     <details>
       <summary>See that picture and how to fix it</summary>
       <br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Click Options->Edit Hosts File, it will pop up a text file.<br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Then check codes in that text file look exactly same to the following codes in picture showed below.<br>
+      <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/hosts_enabled.png"><br><br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Find and verify this code: "127.0.0.1 mm-gta5-prod.ros.rockstargames.com".<br>
       <!--&nbsp;&nbsp;-&nbsp;&nbsp;Make sure there is no "#" in front of it, if there is, delete all the "#" sign in the line contain "127.0.0.1 mm-gta5-prod.ros.rockstargames.com".<br>-->
       &nbsp;&nbsp;-&nbsp;&nbsp;<!--Or just simply-->Delete the entire line contain "127.0.0.1 mm-gta5-prod.ros.rockstargames.com", then restart this program. It will automatically add a new one when starting it<br>
       <br>
-      <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/hosts_enabled.png"><br>
     </details>
   </li>
   <li>This program is based on network so it won't modified game play or game files. If using Mode 2, It will modified the network setting file showed below.<br>
