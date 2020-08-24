@@ -2,7 +2,7 @@
 [EXPERIMENTAL] This is a tool can help you create no randoms session<br>
 <br>
 <details>
-  <summary><h4>What it can do and how it works</h4></summary>
+  <summary>What it can do and how it works</summary>
   <br>
   Usually a session will join random people because it's connected to a game server (matchmaking server) that matching randoms into the session.<br>
   This tool can block the game server that matching randoms into the session.<br>
