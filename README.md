@@ -76,7 +76,7 @@ Usage is also included inside it's manual.<br>
   </li>
   <li>If using Mode 2, did correct steps but randoms still join while MatchingSwitch is ON, please do this:<br>
     <details>
-      <summary>See that picture and how to fix it</summary>
+      <summary>See how to fix it</summary>
       <br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Click Options->Edit Hosts File, it will pop up a text file.<br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Then check codes in that text file look exactly same to the following codes in picture showed below.<br>
