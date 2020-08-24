@@ -75,7 +75,7 @@ Usage is also included inside it's manual.<br>
   </li>
   <li>This program might not work when using VPN or proxy.</li>
   <li>Due to game default set matchmaking on, this program will automatically turn MatchingSwitch OFF while starting it and closing it.</li>
-  <li>If did correct steps but randoms still join while MatchingSwitch is ON, please click Options->Edit Hosts File, it will pop up a text file, <br>Then check codes in that text file look exactly same to the following codes in picture showed.<br>
+  <li>If using Mode 2, did correct steps but randoms still join while MatchingSwitch is ON, please click Options->Edit Hosts File, it will pop up a text file, <br>Then check codes in that text file look exactly same to the following codes in picture showed.<br>
     <details>
       <summary>See that picture and how to fix it</summary>
       <br>
