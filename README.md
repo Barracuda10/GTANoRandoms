@@ -24,7 +24,7 @@ Just click red button in the middle or use hot key (default disabled) and it wil
   <li>Join a Public Session or Find a new session with MatchingSwitch ON.</li>
   <li>It should be a empty session<!-- (usually it will join a friend, to avoid this enable <!--<a href="/README.md#firewall-solo-session">-->Firewall Solo Session<!--</a>-->, <!-- then repeat last step, Remember to disable it later).--></li><!--(usually it will join a friend, to avoid this set Presence Visibility to Me Only in Social Club setting, Remember to set it back later)-->
   <ul>
-    <li><h6>Usually it will join a friend, to avoid this enable <!--<a href="/README.md#firewall-solo-session">-->Firewall Solo Session<!--</a>-->, then find a new session, Remember to disable it later</h6></li>
+    <li>Usually it will join a friend, to avoid this enable <!--<a href="/README.md#firewall-solo-session">-->Firewall Solo Session<!--</a>-->, then find a new session, it should be a empty session, Remember to disable it later</li>
   </ul>
   <li>Done. Randoms will not join this session.</li>
 </ul>
