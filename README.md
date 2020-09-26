@@ -7,8 +7,9 @@
   Usually a session will join random people because it's connected to a game server (matchmaking server) that matching random players into the session.<br>
   This tool can block the server that matching randoms into the session.<br>
   This is how it create a Public Session that random players won't start to join, while friends and their friends and crew members are free to join but except randoms.<br>
+  Click red button in the center or use hot key (default disabled) and it will block that matchmaking server.<br>
 </details>
-Just click red button in the middle or use hot key (default disabled) and it will block matchmaking server.<br>
+Just click red button in the center or use hot key (default disabled) to activate.<br>
 <br>
 <a href="https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/MatchingSwitch.exe"><ins>Download here...</ins></a><br>
 <a href="//raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/ffmpeg/MatchingSwitch.exe"><ins>Download this version if the notification sound is not loud enough...</ins></a><br>
@@ -21,7 +22,7 @@ Just click red button in the middle or use hot key (default disabled) and it wil
 <h2>STEPS: Create a No Randoms Session</h2>
 <!--<h5>Method 1 [RECOMMAND]</h5>-->
 <ul>
-  <li>Join a Public Session or Find a new session with MatchingSwitch ON.</li>
+  <li>Join a Public Session or Find a new session with this tool activate.</li>
   <li>It should be a empty session<!-- (usually it will join a friend, to avoid this enable --><!--<a href="/README.md#firewall-solo-session">--><!--Firewall Solo Session--><!--</a>--><!-- , then repeat last step, Remember to disable it later).--></li>
   <ul>
     <li>Usually it will join a friend, to avoid this enable <!--<a href="/README.md#firewall-solo-session">-->Firewall Solo Session<!--</a>-->, then find a new session, it must be a empty session, Remember to disable it later</li>
@@ -63,21 +64,21 @@ Usage is also included inside it's manual.<br>
 <br>
 <h3>Note:</h3>
 <ul>
-  <li>Always keep MatchingSwitch ON while still in the session. Because turn it off sometimes can cause randoms to join.</li>
-  <li>Turn MatchingSwitch OFF before hosting a job or heist that require to launch session.</li>
+  <li>Always keep this tool activate while still in the session. Because turn it off sometimes can cause randoms to join.</li>
+  <li>Turn it off before hosting a job or heist that require to launch session.</li>
   <li>This program might not work when using VPN or proxy.</li>
-  <li>Due to game default set matchmaking on, this program will automatically turn MatchingSwitch OFF while starting it and closing it.</li>
+  <li>Due to game default set matchmaking on, this program will automatically deactivate while starting it and closing it.</li>
   <li>This program default using Mode 1 and it need system firewall enabled, <br>If can not enable system firewall, Use Mode 2 instead. Mode 2 may require run as administrator.<br>
     <details>
       <summary>See how to run as administrator</summary>
       <br>
-      &nbsp;&nbsp;-&nbsp;&nbsp;Right click MatchmakingSwitch.exe, choose Properties, then choose Compatibility tab,<br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Right click GTANoRandoms.exe, choose Properties, then choose Compatibility tab,<br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Check this option showed below.<br>
       <br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/administrator.png"><br>
     </details>
   </li>
-  <li>If using Mode 2, did correct steps but randoms still join while MatchingSwitch is ON, please do this:<br>
+  <li>If using Mode 2, did correct steps but randoms still join while this tool is activate, please do this:<br>
     <details>
       <summary>See how to fix it</summary>
       <br>
@@ -98,7 +99,7 @@ Usage is also included inside it's manual.<br>
   </li>
 </ul>
 <!--<h3>Cautions:</h3>-->
-<h4>Things unavailable when MatchingSwitch is ON, because game will require to use matchmaking service:</h4>
+<h4>Things unavailable when this tool is activate, because game will require to use matchmaking service:</h4>
 <ul>
   <li>Host any job or heist that require launch session (Join others doesn't include)</li>
   <li>Make a solo session (It will kick to story mode)</li>
