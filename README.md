@@ -93,13 +93,14 @@ Usage is also included inside it's manual.<br>
       <br>
     </details>
   </li>
-  </details></li>
-  <li>This program is based on network so it won't modified game play or game files. <br>If using Mode 2, It will modified the network setting file showed below.<br>
+  <li>If using Mode 2, It will modified the network setting file showed below.<br>
     <details>
       <summary>Click to see file will be modified by this tool</summary>
       &nbsp;&nbsp;-&nbsp;&nbsp;Hosts&nbsp;&nbsp[PATH]%WINDIR%\system32\drivers\etc\hosts<br>
     </details>
   </li>
+  </details></li>
+  <li>This program is based on network so it won't modified game play or game files.</li>
 </ul>
 <!--<h3>Cautions:</h3>-->
 <h4>Things unavailable when this tool is activate, because game will require to use matchmaking service:</h4>
