@@ -68,7 +68,7 @@ Usage is also included inside it's manual.<br>
   <li>Turn it off before hosting a job or heist that require to launch session.</li>
   <li>This program might not work when using VPN or proxy.</li>
   <li>Due to game default set matchmaking on, this program will automatically deactivate while starting it and closing it.</li>
-  <details>
+  <li><details>
       <summary>About different modes</summary>
   <li>This program default using Mode 1 and it need system firewall enabled, <br>If can not enable system firewall, Use Mode 2 instead. Mode 2 may require run as administrator.<br>
     <details>
@@ -93,7 +93,7 @@ Usage is also included inside it's manual.<br>
       <br>
     </details>
   </li>
-  </details>
+  </details></li>
   <li>This program is based on network so it won't modified game play or game files. <br>If using Mode 2, It will modified the network setting file showed below.<br>
     <details>
       <summary>Click to see file will be modified by this tool</summary>
