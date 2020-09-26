@@ -45,7 +45,7 @@ Just click red button in the center or use hot key (default disabled) to activat
     </details>
   </li>
 </ul>
-This program need system firewall enabled.<br>
+This tool need system firewall enabled.<br>
 <details>
       <summary>See how to enable system firewall</summary>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=267 height=216><br><br>
@@ -65,8 +65,8 @@ Usage is also included inside it's manual.<br>
 <h3>Note:</h3>
 <ul>
   <li>Always keep this tool activate while still in the session. Because turn it off sometimes can cause randoms to join.</li>
-  <li>Turn it off before hosting a job or heist that require to launch session.</li>
-  <li>This program might not work when using VPN or proxy.</li>
+  <li>Turn it off before hosting a job or heist that requires to launch session.</li>
+  <li>This tool might not work when using VPN or proxy.</li>
   <li>Due to game default set matchmaking on, this program will automatically deactivate while starting it and closing it.</li>
   <li><details>
       <summary>About different modes</summary>
