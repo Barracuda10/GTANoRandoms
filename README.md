@@ -99,6 +99,7 @@ Usage is also included inside it's manual.<br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Hosts&nbsp;&nbsp[PATH]%WINDIR%\system32\drivers\etc\hosts<br>
     </details>
   </li>
+  <li>Recommand use default mode Mode 1.</li>
   </details></li>
   <li>This program is based on network so it won't modified game play or game files.</li>
 </ul>
