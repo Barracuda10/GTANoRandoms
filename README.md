@@ -1,5 +1,5 @@
 <h1>MatchingSwitch</h1>
-[EXPERIMENTAL] This is a tool for creating no random players session<br>
+[EXPERIMENTAL] This is a tool for creating no random players session.<br>
 <br>
 <details>
   <summary>What it can do and how it works</summary>
@@ -18,9 +18,9 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
 <h2>Create a No Randoms Session</h2>
 <ul>
   <li>Activate the tool, Go join a Public Session or Find a new session.</li>
-  <li>It should be a empty session</li>
+  <li>It should be a empty session.</li>
   <ul>
-    <li>Usually it will join a friend, to avoid this enable <!--<a href="/README.md#firewall-solo-session">-->Firewall Solo Session<!--</a>-->, then find a new session, it will be a empty session, Remember to disable it later</li>
+    <li>Usually it will join a friend, to avoid this enable <!--<a href="/README.md#firewall-solo-session">-->Firewall Solo Session<!--</a>-->, then find a new session, it will be a empty session, Remember to disable it later.</li>
   </ul>
   <li>Done. Randoms players will not join this session.</li>
 </ul>
@@ -29,7 +29,7 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
 <ul>
   <li>
     <details>
-      <summary>See how to enable Firewall Solo Session</summary>
+      <summary>See how to enable Firewall Solo Session.</summary>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png" width=267 height=216><br>
     </details>
   </li>
@@ -38,21 +38,21 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
 <br>
 This tool only work while system firewall is enabled.
 <details>
-  <summary>See how to enable system firewall</summary>
+  <summary>See how to enable system firewall.</summary>
   <ul>
-    <li>Choose Open Firewall Settings<br>
+    <li>Choose Open Firewall Settings.<br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=267 height=216>
     </li>
-    <li>Choose Turn Windows Defender Firewall on or off<br>
+    <li>Choose Turn Windows Defender Firewall on or off.<br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw.png" width=267 height=216><br><br>
     </li>
-    <li>Turn both network settings to on (If know which network profile is using, just only turn the currently using one on)
+    <li>Turn both network settings to on (If know which network profile is using, just only turn the currently using one on).
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw_on.png" width=267 height=216><br><br>
     </li>
 </details>
 Usage is also included inside it's manual.
 <details>
-  <summary>See how to find manual</summary>
+  <summary>See how to find manual.</summary>
   <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_manual.png" width=267 height=216>
 </details>
 <br>
@@ -98,11 +98,11 @@ Usage is also included inside it's manual.
   <li>This program is based on network so it won't modified game play or game files.</li>-->
   <li>Things unavailable while this tool is activated, because game will require to use matchmaking service.</li>
   <ul>
-    <li>Host any job or heist that require launch session (Join others doesn't include)</li>
-    <li>Make a solo session (It will force kick to story mode)</li>
-    <!--<li><del>[PROVED AVAILABLE] Join friend through social club</del></li>
-    <li><del>[PROVED AVAILABLE] Find a new session</del></li>
-    <li><del>[PROVED AVAILABLE] Join online</del></li>-->
+    <li>Host any job or heist that require launch session (Join others doesn't include).</li>
+    <li>Make a solo session (It will force kick to story mode).</li>
+    <!--<li><del>[PROVED AVAILABLE] Join friend through social club.</del></li>
+    <li><del>[PROVED AVAILABLE] Find a new session.</del></li>
+    <li><del>[PROVED AVAILABLE] Join online.</del></li>-->
   </ul>
 </ul>
 <br>
