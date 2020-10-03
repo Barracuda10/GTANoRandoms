@@ -32,7 +32,7 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
   <li>
     <details>
       <summary>See how to enable Firewall Solo Session.</summary>
-      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png" width=267 height=216><br>
+      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png" width=252 height=193><br>
     </details>
   </li>
   <li>Enable it will block anyone from joining the session and disconnect anyone joined. No one can join while this is enabled.</li>
@@ -43,19 +43,19 @@ This tool only work while system firewall is enabled.
   <summary>See how to enable system firewall.</summary>
   <ul>
     <li>Choose Open Firewall Settings.<br>
-      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=267 height=216>
+      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=252 height=193>
     </li>
     <li>Choose Turn Windows Defender Firewall on or off.<br>
-      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw.png" width=267 height=216><br><br>
+      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw.png" width=252 height=193><br><br>
     </li>
     <li>Turn both network settings to on (If know which network profile is using, just only turn the currently using one on).
-      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw_on.png" width=267 height=216><br><br>
+      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw_on.png" width=252 height=193><br><br>
     </li>
 </details>
 Usage is also included inside it's manual.
 <details>
   <summary>See how to find manual.</summary>
-  <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_manual.png" width=267 height=216>
+  <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_manual.png" width=252 height=193>
 </details>
 <br>
 <h2>Note</h2>
