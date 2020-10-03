@@ -24,7 +24,7 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
   <ul>
     <li>Usually it will join a friend, to avoid this enable <!--<a href="/README.md#firewall-solo-session">-->Firewall Solo Session<!--</a>-->, then find a new session, it will be a empty session, Remember to disable it later.</li>
   </ul>
-  <li>Done. Randoms players will not join this session.</li>
+  <li>Done. Random players will not join this session.</li>
 </ul>
 <br>
 <h4>Additional: Firewall Solo Session</h4>
