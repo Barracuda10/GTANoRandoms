@@ -36,7 +36,7 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
 <h4>Additional: Firewall Solo Session</h4>
 <ul>
   <li>Enable this to block anyone from joining session and disconnect anyone joined. No one can join while this is enabled.</li>
-  <li>This feature require system firewall enabled.
+  <li>
     <details>
       <summary>See how to enable Firewall Solo Session</summary>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png" width=267 height=216><br>
