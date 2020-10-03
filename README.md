@@ -1,15 +1,15 @@
 <h1>MatchingSwitch</h1>
-[EXPERIMENTAL] This is a tool to create no randoms session<br>
+[EXPERIMENTAL] This is a tool for creating no randoms session<br>
 <br>
 <details>
   <summary>What it can do and how it works</summary>
   <br>
-  Usually a session will join random people because it's connected to a game server (matchmaking server) that matching random players into the session.<br>
+  Usually a session will join random people because it's connected to a game server called matchmaking server that matching random players into the session.<br>
   This tool can block the server that matching randoms into the session.<br>
   This is how it create a Public Session that random players won't start to join, while friends and their friends and crew members are free to join but except randoms.<br>
   Click red button in the center or use hot key (default disabled) and it will block that matchmaking server.<br>
 </details>
-Just click red button in the center or use hot key (default disabled) to activate.<br>
+Just click the button in the center or use hot key (default disabled) to activate.<br>
 <br>
 <a href="https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/MatchingSwitch.exe"><ins>Download here...</ins></a><br>
 <a href="//raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/ffmpeg/MatchingSwitch.exe"><ins>Download this version if the notification sound is not loud enough...</ins></a><br>
@@ -68,7 +68,7 @@ Usage is also included inside it's manual.<br>
   <li>Turn it off before hosting a job or heist that requires to launch session.</li>
   <li>This tool might not work when using VPN or proxy.</li>
   <li>Due to game default set matchmaking on, this program will automatically deactivate while starting it and closing it.</li>
-  <li><details>
+  <!--<li><details>
       <summary>About different modes</summary>
   <li>This program default using Mode 1 and it need system firewall enabled, <br>If can not enable system firewall, Use Mode 2 instead. Mode 2 may require run as administrator.<br>
     <details>
@@ -87,9 +87,9 @@ Usage is also included inside it's manual.<br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Click Options->Edit Hosts File, it will pop up a text file.<br>
       &nbsp;&nbsp;-&nbsp;&nbsp;Then check codes in that text file look exactly same to the following codes in picture showed below.<br>
       <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/hosts_enabled.png"><br><br>
-      &nbsp;&nbsp;-&nbsp;&nbsp;Find and verify this code: "127.0.0.1 mm-gta5-prod.ros.rockstargames.com".<br>
+      &nbsp;&nbsp;-&nbsp;&nbsp;Find and verify this code: "127.0.0.1 mm-gta5-prod.ros.rockstargames.com".<br>-->
       <!--&nbsp;&nbsp;-&nbsp;&nbsp;Make sure there is no "#" in front of it, if there is, delete all the "#" sign in the line contain "127.0.0.1 mm-gta5-prod.ros.rockstargames.com".<br>-->
-      &nbsp;&nbsp;-&nbsp;&nbsp;<!--Or just simply-->Delete the entire line contain "127.0.0.1 mm-gta5-prod.ros.rockstargames.com" and save, then restart this program. It will automatically add a new one when starting it<br>
+      <!--&nbsp;&nbsp;-&nbsp;&nbsp;<!--Or just simply--><!--Delete the entire line contain "127.0.0.1 mm-gta5-prod.ros.rockstargames.com" and save, then restart this program. It will automatically add a new one when starting it<br>
       <br>
     </details>
   </li>
@@ -101,16 +101,16 @@ Usage is also included inside it's manual.<br>
   </li>
   <li>Recommand use default mode Mode 1.</li>
   </details></li>
-  <li>This program is based on network so it won't modified game play or game files.</li>
+  <li>This program is based on network so it won't modified game play or game files.</li>-->
 </ul>
 <!--<h3>Cautions:</h3>-->
-<h4>Things unavailable when this tool is activate, because game will require to use matchmaking service:</h4>
+<h4>Things unavailable while this tool is activate, because game will require to use matchmaking service:</h4>
 <ul>
   <li>Host any job or heist that require launch session (Join others doesn't include)</li>
-  <li>Make a solo session (It will kick to story mode)</li>
-  <li><del>[PROVED AVAILABLE] Join friend through social club</del></li>
+  <li>Make a solo session (It will force kick to story mode)</li>
+  <!--<li><del>[PROVED AVAILABLE] Join friend through social club</del></li>
   <li><del>[PROVED AVAILABLE] Find a new session</del></li>
-  <li><del>[PROVED AVAILABLE] Join online</del></li>
+  <li><del>[PROVED AVAILABLE] Join online</del></li>-->
 </ul>
 <br>
 <!--2&nbsp;&nbsp;If turn matchmaking back on it will immidiately cause randoms to join sometimes, and even if turn it back off quickly<br>
