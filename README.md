@@ -56,7 +56,7 @@ Usage is also included inside it's manual.
   <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_manual.png" width=267 height=216>
 </details>
 <br>
-<h3>Note:</h3>
+<h2>Note</h2>
 <ul>
   <li>Always keep this tool activated while still in the session. Turn it off can sometimes cause randoms to join.</li>
   <li>Deactivate it before hosting a job or heist that requires to launch session.</li>
