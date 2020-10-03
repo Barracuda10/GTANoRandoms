@@ -4,15 +4,13 @@
 <details>
   <summary>What it can do and how it works</summary>
   <br>
-  Usually a session will join random people because it's connected to a game server called matchmaking server that matching random players into the session.<br>
-  This tool can block the server that matching randoms into the session.<br>
-  This is how it create a Public Session that random players won't start to join, while friends and their friends and crew members are free to join but except randoms.<br>
-  Click red button in the center or use hot key (default disabled) and it will block that matchmaking server.<br>
+  Usually a session will join random people because it's connected to a game server matchmaking server that matching random players into the session.<br>
+  This tool can block this server by clicking the button in the center.<br>
+  This is how it create a Public Session that random players won't start to join, and friends or crew members are free to join but except randoms.<br>
 </details>
-Just click the button in the center or use hot key (default disabled) to activate.<br>
+Click the button in the center or use hotkey (default disabled) to activate.<br>
 <br>
 <a href="https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/MatchingSwitch.exe"><ins>Download here...</ins></a><br>
-<a href="//raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/ffmpeg/MatchingSwitch.exe"><ins>Download this version if the notification sound is not loud enough...</ins></a><br>
 <br>
 <br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch.png"><br>
@@ -22,12 +20,12 @@ Just click the button in the center or use hot key (default disabled) to activat
 <h2>STEPS: Create a No Randoms Session</h2>
 <!--<h5>Method 1 [RECOMMAND]</h5>-->
 <ul>
-  <li>Join a Public Session or Find a new session with this tool activate.</li>
-  <li>It should be a empty session<!-- (usually it will join a friend, to avoid this enable --><!--<a href="/README.md#firewall-solo-session">--><!--Firewall Solo Session--><!--</a>--><!-- , then repeat last step, Remember to disable it later).--></li>
+  <li>Activate the tool, Go join a Public Session or Find a new session.</li>
+  <li>It should be a empty session</li>
   <ul>
-    <li>Usually it will join a friend, to avoid this enable <!--<a href="/README.md#firewall-solo-session">-->Firewall Solo Session<!--</a>-->, then find a new session, it must be a empty session, Remember to disable it later</li>
+    <li>Usually it will join a friend, to avoid this enable <!--<a href="/README.md#firewall-solo-session">-->Firewall Solo Session<!--</a>-->, then find a new session, it will be a empty session, Remember to disable it later</li>
   </ul>
-  <li>Done. Randoms will not join this session.</li>
+  <li>Done. Randoms players will not join this session.</li>
 </ul>
 <!--<h5>Method 2</h5>
 <ul>
