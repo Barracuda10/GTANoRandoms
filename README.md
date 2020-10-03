@@ -35,7 +35,7 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png" width=267 height=216><br>
     </details>
   </li>
-  <li>Enable this to block anyone from joining session and disconnect anyone joined. No one can join while this is enabled.</li>
+  <li>Enable it will block anyone from joining the session and disconnect anyone joined. No one can join while this is enabled.</li>
 </ul>
 <br>
 This tool only work while system firewall is enabled.
