@@ -17,7 +17,7 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
 <!--<a href="https://www.virustotal.com/gui/file/3c5d6335c52a2333999e3b0c711977bf60850a8da0bfd1217358f98409f97d5a/detection" target="_blank"><ins>See virus scan result</ins></a><br>-->
 <!--<del>[FIXED] it may look different if the scale and layout setting on Windows 10 is not set to 100%</del>
 <br>-->
-<h2>STEPS: Create a No Randoms Session</h2>
+<h2>Create a No Randoms Session</h2>
 <!--<h5>Method 1 [RECOMMAND]</h5>-->
 <ul>
   <li>Activate the tool, Go join a Public Session or Find a new session.</li>
@@ -33,9 +33,9 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
   <li>Turn matchmaking off then find a new session and the new session should be a empty session.</li>
   <li>Done. Randoms will not join this session.</li>
 </ul>-->
-<h4>Assisting feature - Firewall Solo Session</h4>
+<h4>Additional: Firewall Solo Session</h4>
 <ul>
-  <li>Enable this to block anyone from joining session and disconnect anyone joined. Friends can't join while this is enabled.</li>
+  <li>Enable this to block anyone from joining session and disconnect anyone joined. No one can join while this is enabled.</li>
   <li>This feature require system firewall enabled.
     <details>
       <summary>See how to enable Firewall Solo Session</summary>
@@ -43,7 +43,7 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
     </details>
   </li>
 </ul>
-This tool need system firewall enabled.<br>
+This tool only work while system firewall is enabled.<br>
 <details>
       <summary>See how to enable system firewall</summary>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=267 height=216><br><br>
@@ -62,10 +62,10 @@ Usage is also included inside it's manual.<br>
 <br>
 <h3>Note:</h3>
 <ul>
-  <li>Always keep this tool activate while still in the session. Because turn it off sometimes can cause randoms to join.</li>
-  <li>Turn it off before hosting a job or heist that requires to launch session.</li>
-  <li>This tool might not work when using VPN or proxy.</li>
-  <li>Due to game default set matchmaking on, this program will automatically deactivate while starting it and closing it.</li>
+  <li>Always keep this tool activated while still in the session. Turn it off can sometimes cause randoms to join.</li>
+  <li>Deactivate it before hosting a job or heist that requires to launch session.</li>
+  <li>This tool might not work while using VPN or proxy.</li>
+  <li>Due to game default set matchmaking on, this program will automatically deactivate itself when starting it and closing it.</li>
   <!--<li><details>
       <summary>About different modes</summary>
   <li>This program default using Mode 1 and it need system firewall enabled, <br>If can not enable system firewall, Use Mode 2 instead. Mode 2 may require run as administrator.<br>
