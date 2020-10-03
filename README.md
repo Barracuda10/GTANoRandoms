@@ -63,7 +63,7 @@ Usage is also included inside it's manual.
   <li>Always keep this tool activated while still in the session. Turn it off can sometimes cause randoms to join.</li>
   <li>Deactivate it before hosting a job or heist that requires to launch session.</li>
   <li>This tool might not work while using VPN or proxy.</li>
-  <li>Due to game default set matchmaking on, this program will automatically deactivate itself when starting it and closing it.</li>
+  <li>This tool will automatically deactivate itself before start and exit.</li>
   <!--<li><details>
       <summary>About different modes</summary>
   <li>This program default using Mode 1 and it need system firewall enabled, <br>If can not enable system firewall, Use Mode 2 instead. Mode 2 may require run as administrator.<br>
