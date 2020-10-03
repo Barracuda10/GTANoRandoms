@@ -48,7 +48,7 @@ This tool only work while system firewall is enabled.
     <li>Choose Turn Windows Defender Firewall on or off.<br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw.png" width=252 height=193><br><br>
     </li>
-    <li>Turn both network settings to on (If know which network profile is using, just only turn the currently using one on).
+    <li>Turn on both options (If know which network profile is using, just only turn the currently using one on).
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw_on.png" width=252 height=193><br><br>
     </li>
 </details>
