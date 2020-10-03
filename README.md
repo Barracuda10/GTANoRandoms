@@ -1,5 +1,5 @@
-<h1>MatchingSwitch</h1>
-[EXPERIMENTAL] This is a tool for creating no random players session.<br>
+<h1>GTANoRandoms</h1>
+This is a tool for creating no random players session.<br>
 <br>
 <details>
   <summary>What it can do and how it works</summary>
