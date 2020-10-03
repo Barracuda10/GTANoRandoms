@@ -5,9 +5,9 @@
   <summary>What it can do and how it works</summary>
   <br>
   <ul>
-    <li>Usually a session will join random people because it's connected to a game server matchmaking server that matching random players into the session.</li>
-    <li>This tool can block this server by clicking the button in the center.</li>
-    <li>This is how it create a Public Session that random players won't start to join, and friends or crew members are free to join but except randoms.</li>
+    <li>Random players will join the session because it's connected to a game server for matchmaking.</li>
+    <li>This tool can block that server, Make it stop matching randoms into the session.</li>
+    <li>This is how it create a Public Session that friends or crew members are free to join and random players won't start to join.</li>
   </ul>
 </details>
 Click the button in the center or use hotkey (default disabled) to activate.<br>
