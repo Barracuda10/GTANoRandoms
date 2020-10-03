@@ -1,5 +1,5 @@
 <h1>MatchingSwitch</h1>
-[EXPERIMENTAL] This is a tool for creating no randoms session<br>
+[EXPERIMENTAL] This is a tool for creating no random players session<br>
 <br>
 <details>
   <summary>What it can do and how it works</summary>
