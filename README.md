@@ -96,14 +96,14 @@ Usage is also included inside it's manual.
   <li>Recommand use default mode Mode 1.</li>
   </details></li>
   <li>This program is based on network so it won't modified game play or game files.</li>-->
-</ul>
-<h4>Things unavailable while this tool is activate, because game will require to use matchmaking service:</h4>
-<ul>
-  <li>Host any job or heist that require launch session (Join others doesn't include)</li>
-  <li>Make a solo session (It will force kick to story mode)</li>
-  <!--<li><del>[PROVED AVAILABLE] Join friend through social club</del></li>
-  <li><del>[PROVED AVAILABLE] Find a new session</del></li>
-  <li><del>[PROVED AVAILABLE] Join online</del></li>-->
+  <li>Things unavailable while this tool is activated, because game will require to use matchmaking service.</li>
+  <ul>
+    <li>Host any job or heist that require launch session (Join others doesn't include)</li>
+    <li>Make a solo session (It will force kick to story mode)</li>
+    <!--<li><del>[PROVED AVAILABLE] Join friend through social club</del></li>
+    <li><del>[PROVED AVAILABLE] Find a new session</del></li>
+    <li><del>[PROVED AVAILABLE] Join online</del></li>-->
+  </ul>
 </ul>
 <br>
 <!--2&nbsp;&nbsp;If turn matchmaking back on it will immidiately cause randoms to join sometimes, and even if turn it back off quickly<br>
