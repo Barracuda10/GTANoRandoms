@@ -46,13 +46,17 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
 <br>
 This tool only work while system firewall is enabled.
 <details>
-      <summary>See how to enable system firewall</summary>
-      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=267 height=216><br><br>
-      &nbsp;&nbsp;-&nbsp;&nbsp;Choose Open Firewall Settings in Help<br>
+  <summary>See how to enable system firewall</summary>
+  <ul>
+    <li>Choose Open Firewall Settings<br>
+      <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=267 height=216>
+    </li>
+    <li>Choose Turn Windows Defender Firewall on or off<br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw.png" width=267 height=216><br><br>
-      &nbsp;&nbsp;-&nbsp;&nbsp;Choose Turn Windows Defender Firewall on or off<br>
+    </li>
+    <li>Turn both network settings to on (If know which network profile is using, just turn the currently using one on)
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw_on.png" width=267 height=216><br><br>
-      &nbsp;&nbsp;-&nbsp;&nbsp;Turn both network settings to on (If know which network profile is using, only need to turn currently using one on)<br>
+    </li>
 </details>
 Usage is also included inside it's manual.
 <details>
