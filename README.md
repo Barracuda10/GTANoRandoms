@@ -12,7 +12,7 @@ This is a tool for creating no random players session.<br>
 </details>
 Click the button in the center or use hotkey (default disabled) to activate.<br>
 <br>
-<a href="https://raw.githubusercontent.com/Barracuda10/MatchmakingSwitch/master/MatchmakingSwitch/x64/Release/MatchingSwitch.exe"><ins>Download here...</ins></a><br>
+<a href="https://raw.githubusercontent.com/Barracuda10/GTANoRandoms/master/MatchmakingSwitch/x64/Release/GTANoRandoms.exe"><ins>Download here...</ins></a><br>
 <br>
 <br>
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch.png"><br>
