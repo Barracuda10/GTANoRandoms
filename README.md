@@ -38,9 +38,8 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
   <li>Enable it will block anyone from joining the session and disconnect anyone joined. No one can join while this is enabled.</li>
 </ul>
 <br>
-This tool only work while system firewall is enabled.
 <details>
-  <summary>See how to enable system firewall.</summary>
+  <summary>This tool only work while system firewall is enabled. See how to enable system firewall [Click to expand].</summary>
   <ul>
     <li>Choose Open Firewall Settings.<br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=252 height=193>
@@ -52,9 +51,8 @@ This tool only work while system firewall is enabled.
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/NetDisconnector/netdisconnector_fw_on.png" width=252 height=193><br><br>
     </li>
 </details>
-Usage is also included inside it's manual.
 <details>
-  <summary>See how to find manual.</summary>
+  <summary>Usage is also inside this tool. See how to find it [Click to expand].</summary>
   <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_manual.png" width=252 height=193>
 </details>
 <br>
