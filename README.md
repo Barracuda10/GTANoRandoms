@@ -31,7 +31,7 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
 <ul>
   <li>
     <details>
-      <summary>See how to enable Firewall Solo Session.</summary>
+      <summary>See how to enable Firewall Solo Session. [Click to Expand]</summary>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_firewallsolosession.png" width=252 height=193><br>
     </details>
   </li>
@@ -39,7 +39,7 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
 </ul>
 <br>
 <details>
-  <summary>This tool only work while system firewall is enabled. See how to enable system firewall [Click to expand].</summary>
+  <summary>This tool only work while system firewall is enabled. See how to enable system firewall [Click to Expand].</summary>
   <ul>
     <li>Choose Open Firewall Settings.<br>
       <img src="https://raw.githubusercontent.com/Barracuda10/others/master/MatchmakingSwitch/matchmakingswitch_help_3.png" width=252 height=193>
@@ -52,7 +52,7 @@ Click the button in the center or use hotkey (default disabled) to activate.<br>
     </li>
 </details>
 <details>
-  <summary>Usage is also inside this tool. See how to find it [Click to expand].</summary>
+  <summary>Usage is also inside this tool. See how to find it [Click to Expand].</summary>
   <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_manual.png" width=252 height=193>
 </details>
 <br>
