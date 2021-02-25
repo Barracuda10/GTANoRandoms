@@ -126,3 +126,8 @@ Due to game default set cloudservices on, this program will automatically turn c
 <img src="https://github.com/Barracuda10/others/blob/master/MatchmakingSwitch/matchmakingswitch_cloudservicesswitch.png"><br>
 Change back to MatchingSwitch anytime through options in picture showed above.<br>
 Also it will display each services state if it's On or Off in prompt labal.<br>-->
+
+Last email was completely in a hurry
+I only have few hours a day
+And ive stopped focusing on hardware after i upgraded my PC
+So that email probably can be ignored now
